@@ -1,0 +1,3827 @@
+00401000	push 00
+00401002	push 0040201D
+00401007	push 00402010
+0040100C	push 00
+0040100E	call 00401022
+00401022	jmp Dword ptr DS:[00402008]
+77A0ED60	mov edi, edi
+77A0ED62	push ebp
+77A0ED63	mov ebp, esp
+77A0ED65	cmp Dword ptr DS:[77A31C94],00h
+77A0ED6C	jz 77A0ED90
+77A0ED90	push -01
+77A0ED92	push 00
+77A0ED94	push Dword ptr SS:[ebp+14h]
+77A0ED97	push Dword ptr SS:[ebp+10h]
+77A0ED9A	push Dword ptr SS:[ebp+0Ch]
+77A0ED9D	push Dword ptr SS:[ebp+08h]
+77A0EDA0	call 77A0EFE0
+77A0EFE0	mov edi, edi
+77A0EFE2	push ebp
+77A0EFE3	mov ebp, esp
+77A0EFE5	push ecx
+77A0EFE6	push ecx
+77A0EFE7	push ebx
+77A0EFE8	push esi
+77A0EFE9	xor ebx, ebx
+77A0EFEB	mov esi, ebx
+77A0EFED	push edi
+77A0EFEE	mov edi, ebx
+77A0EFF0	mov Dword ptr SS:[ebp-08h],esi
+77A0EFF3	mov Dword ptr SS:[ebp-04h],edi
+77A0EFF6	cmp Dword ptr SS:[ebp+0Ch],ebx
+77A0EFF9	jz 77A0F01C
+77A0EFFB	push 01
+77A0EFFD	push -01
+77A0EFFF	lea eax,Dword ptr SS:[ebp-04h]
+77A0F002	push eax
+77A0F003	push -01
+77A0F005	push Dword ptr SS:[ebp+0Ch]
+77A0F008	push ebx
+77A0F009	call 779B1570
+779B1570	mov edi, edi
+779B1572	push ebp
+779B1573	mov ebp, esp
+779B1575	push ecx
+779B1576	push ebx
+779B1577	push esi
+779B1578	mov esi,Dword ptr SS:[ebp+10h]
+779B157B	push edi
+779B157C	test esi, esi
+779B157E	jz 779B162A
+779B1584	mov edi,Dword ptr SS:[ebp+18h]
+779B1587	test edi, edi
+779B1589	jz 779B162A
+779B158F	cmp Dword ptr SS:[ebp+0Ch],00h
+779B1593	jz 779B162A
+779B1599	test esi, esi
+779B159B	jns 779B15BC
+779B159D	cmp esi, -02
+779B15A0	jl 779B162A
+779B15A6	mov ecx,Dword ptr SS:[ebp+0Ch]
+779B15A9	lea edx,Dword ptr DS:[ecx+01h]
+779B15AC	mov al,byte ptr DS:[ecx]
+779B15AE	inc ecx
+779B15AF	test al, al
+779B15B1	jnz 779B15AC
+779B15AC	mov al,byte ptr DS:[ecx]
+779B15AE	inc ecx
+779B15AF	test al, al
+779B15B1	jnz 779B15AC
+779B15AC	mov al,byte ptr DS:[ecx]
+779B15AE	inc ecx
+779B15AF	test al, al
+779B15B1	jnz 779B15AC
+779B15AC	mov al,byte ptr DS:[ecx]
+779B15AE	inc ecx
+779B15AF	test al, al
+779B15B1	jnz 779B15AC
+779B15AC	mov al,byte ptr DS:[ecx]
+779B15AE	inc ecx
+779B15AF	test al, al
+779B15B1	jnz 779B15AC
+779B15AC	mov al,byte ptr DS:[ecx]
+779B15AE	inc ecx
+779B15AF	test al, al
+779B15B1	jnz 779B15AC
+779B15AC	mov al,byte ptr DS:[ecx]
+779B15AE	inc ecx
+779B15AF	test al, al
+779B15B1	jnz 779B15AC
+779B15AC	mov al,byte ptr DS:[ecx]
+779B15AE	inc ecx
+779B15AF	test al, al
+779B15B1	jnz 779B15AC
+779B15AC	mov al,byte ptr DS:[ecx]
+779B15AE	inc ecx
+779B15AF	test al, al
+779B15B1	jnz 779B15AC
+779B15AC	mov al,byte ptr DS:[ecx]
+779B15AE	inc ecx
+779B15AF	test al, al
+779B15B1	jnz 779B15AC
+779B15AC	mov al,byte ptr DS:[ecx]
+779B15AE	inc ecx
+779B15AF	test al, al
+779B15B1	jnz 779B15AC
+779B15AC	mov al,byte ptr DS:[ecx]
+779B15AE	inc ecx
+779B15AF	test al, al
+779B15B1	jnz 779B15AC
+779B15AC	mov al,byte ptr DS:[ecx]
+779B15AE	inc ecx
+779B15AF	test al, al
+779B15B1	jnz 779B15AC
+779B15B3	sub ecx, edx
+779B15B5	add esi, 02
+779B15B8	add esi, ecx
+779B15BA	jz 779B162A
+779B15BC	mov eax,Dword ptr SS:[ebp+1Ch]
+779B15BF	cmp edi, -01
+779B15C2	jnz 779B1628
+779B15C4	test eax, eax
+779B15C6	jz 779B162A
+779B15C8	mov edi, esi
+779B15CA	mov ebx,Dword ptr SS:[ebp+14h]
+779B15CD	test eax, eax
+779B15CF	jz 779B15E9
+779B15D1	lea eax,Dword ptr DS:[edi+edi]
+779B15D4	push eax
+779B15D5	push 08
+779B15D7	push Dword ptr DS:[77A319F0]
+779B15DD	call Dword ptr DS:[77A33760]
+77B85D90	mov edi, edi
+77B85D92	push ebp
+77B85D93	mov ebp, esp
+77B85D95	and esp, -08
+77B85D98	push ecx
+77B85D99	push esi
+77B85D9A	mov esi,Dword ptr SS:[ebp+08h]
+77B85D9D	test esi, esi
+77B85D9F	jz 77BC90B5
+77B85DA5	cmp Dword ptr DS:[esi+08h],DDEEDDEE
+77B85DAC	mov ecx, esi
+77B85DAE	mov edx,Dword ptr SS:[ebp+10h]
+77B85DB1	jz 77BC90CC
+77B85DB7	test Byte ptr DS:[77C66938],38
+77B85DBE	jnz 77BC90D9
+77B85DC4	push 00
+77B85DC6	push Dword ptr SS:[ebp+0Ch]
+77B85DC9	call 77B85DE0
+77B85DE0	mov edi, edi
+77B85DE2	push ebx
+77B85DE3	mov ebx, esp
+77B85DE5	sub esp, 08
+77B85DE8	and esp, -08
+77B85DEB	add esp, 04
+77B85DEE	push ebp
+77B85DEF	mov ebp,Dword ptr DS:[ebx+04h]
+77B85DF2	mov Dword ptr SS:[esp+04h],ebp
+77B85DF6	mov ebp, esp
+77B85DF8	sub esp, 74
+77B85DFB	push esi
+77B85DFC	push edi
+77B85DFD	mov edi, ecx
+77B85DFF	mov esi, edx
+77B85E01	mov ecx,Dword ptr DS:[ebx+08h]
+77B85E04	mov Dword ptr SS:[ebp-18h],esi
+77B85E07	mov Dword ptr SS:[ebp-0Ch],edi
+77B85E0A	cmp Dword ptr DS:[edi+08h],DDEEDDEE
+77B85E11	jnz 77B85EF3
+77B85EF3	xor eax, eax
+77B85EF5	mov Dword ptr SS:[ebp-30h],00000000
+77B85EFC	mov Dword ptr SS:[ebp-4Ch],eax
+77B85EFF	mov eax,Dword ptr DS:[edi+44h]
+77B85F02	or ecx, eax
+77B85F04	mov Dword ptr SS:[ebp-1Ch],ecx
+77B85F07	mov Dword ptr SS:[ebp-38h],00000000
+77B85F0E	cmp esi, 7FFFFFFF
+77B85F14	jbe 77B85F22
+77B85F22	and eax, 01000000
+77B85F27	jnz 77B85F75
+77B85F29	cmp Dword ptr DS:[77C6373C],eax
+77B85F2F	jnz 77B85F75
+77B85F31	mov edx,Dword ptr DS:[edi+000000DC]
+77B85F37	mov ecx, edx
+77B85F39	test ecx, ecx
+77B85F3B	jnz 77B85F47
+77B85F3D	mov ecx,Dword ptr DS:[77C64334]
+77B85F43	test ecx, ecx
+77B85F45	jz 77B85F72
+77B85F72	mov ecx,Dword ptr SS:[ebp-1Ch]
+77B85F75	mov edx,Dword ptr DS:[edi+58h]
+77B85F78	mov Dword ptr SS:[ebp-3Ch],edx
+77B85F7B	test edx, edx
+77B85F7D	jz 77B85FC5
+77B85FC5	mov eax, esi
+77B85FC7	test esi, esi
+77B85FC9	jnz 77B85FD0
+77B85FD0	add eax, 0F
+77B85FD3	and eax, -08
+77B85FD6	mov edx, eax
+77B85FD8	mov Dword ptr SS:[ebp-4Ch],eax
+77B85FDB	shr edx, 03
+77B85FDE	test Dword ptr SS:[ebp-1Ch],7D810F61
+77B85FE5	mov Dword ptr SS:[ebp-28h],edx
+77B85FE8	jnz 77B86E13
+77B86E13	xor eax, eax
+77B86E15	mov edx,Dword ptr SS:[ebp-1Ch]
+77B86E18	lea ecx,Dword ptr SS:[ebp-30h]
+77B86E1B	push ecx
+77B86E1C	push eax
+77B86E1D	mov eax,Dword ptr SS:[ebp-4Ch]
+77B86E20	or edx, 02
+77B86E23	push eax
+77B86E24	push esi
+77B86E25	mov ecx, edi
+77B86E27	call 77B86FE0
+77B86FE0	mov edi, edi
+77B86FE2	push ebp
+77B86FE3	mov ebp, esp
+77B86FE5	push -02
+77B86FE7	push 77C4C1C8
+77B86FEC	push 77BBAD20
+77B86FF1	mov eax, Dword ptr FS:[00000000] 
+77B86FF7	push eax
+77B86FF8	sub esp, 00000180
+77B86FFE	push ebx
+77B86FFF	push esi
+77B87000	push edi
+77B87001	mov eax, Dword ptr DS:[77C6B370]
+77B87006	xor Dword ptr SS:[ebp-08h],eax
+77B87009	xor eax, ebp
+77B8700B	push eax
+77B8700C	lea eax,Dword ptr SS:[ebp-10h]
+77B8700F	mov Dword ptr FS:[00000000], eax 
+77B87015	mov ebx, edx
+77B87017	mov Dword ptr SS:[ebp-74h],ebx
+77B8701A	mov edi, ecx
+77B8701C	mov Dword ptr SS:[ebp-78h],edi
+77B8701F	mov Dword ptr SS:[ebp+FFFFFF78],00000000
+77B87029	mov Dword ptr SS:[ebp-70h],00000001
+77B87030	mov Byte ptr SS:[ebp-2Dh],00h
+77B87034	mov Dword ptr SS:[ebp-54h],00000000
+77B8703B	mov Dword ptr SS:[ebp-40h],00000000
+77B87042	mov Dword ptr SS:[ebp+FFFFFF6C],00000000
+77B8704C	mov esi,Dword ptr SS:[ebp+0Ch]
+77B8704F	shr esi, 03
+77B87052	test ebx,7D010F60
+77B87058	jnz 77B8708C
+77B8708C	xor eax, eax
+77B8708E	mov Dword ptr SS:[ebp-70h],eax
+77B87091	mov eax,Dword ptr SS:[ebp+14h]
+77B87094	mov Dword ptr DS:[eax], 00000004
+77B8709A	mov eax,Dword ptr SS:[ebp+08h]
+77B8709D	cmp eax, 7FFFFFFF
+77B870A2	jbe 77B870BA
+77B870BA	test ebx,61000000
+77B870C0	jz 77B870E4
+77B870C2	test ebx,10000000
+77B870C8	jnz 77B870E4
+77B870CA	push eax
+77B870CB	call 77C1F0A5
+77C1F0A5	push 3C
+77C1F0A7	push 77C4D320
+77C1F0AC	call 77BC7BE4
+77BC7BE4	push 77BBAD20
+77BC7BE9	push Dword ptr FS:[00000000] 
+77BC7BF0	mov eax,Dword ptr SS:[esp+10h]
+77BC7BF4	mov Dword ptr SS:[esp+10h],ebp
+77BC7BF8	lea ebp,Dword ptr SS:[esp+10h]
+77BC7BFC	sub esp, eax
+77BC7BFE	push ebx
+77BC7BFF	push esi
+77BC7C00	push edi
+77BC7C01	mov eax, Dword ptr DS:[77C6B370]
+77BC7C06	xor Dword ptr SS:[ebp-04h],eax
+77BC7C09	xor eax, ebp
+77BC7C0B	push eax
+77BC7C0C	mov Dword ptr SS:[ebp-18h],esp
+77BC7C0F	push Dword ptr SS:[ebp-08h]
+77BC7C12	mov eax,Dword ptr SS:[ebp-04h]
+77BC7C15	mov Dword ptr SS:[ebp-04h],FFFFFFFE
+77BC7C1C	mov Dword ptr SS:[ebp-08h],eax
+77BC7C1F	lea eax,Dword ptr SS:[ebp-10h]
+77BC7C22	mov Dword ptr FS:[00000000], eax 
+77BC7C28	ret
+77C1F0B1	mov edi, edx
+77C1F0B3	mov esi, ecx
+77C1F0B5	mov Dword ptr SS:[ebp-3Ch],esi
+77C1F0B8	xor ebx, ebx
+77C1F0BA	mov byte ptr SS:[ebp-19h],bl
+77C1F0BD	mov Dword ptr SS:[ebp-24h],ebx
+77C1F0C0	test Dword ptr DS:[esi+44h],01000000
+77C1F0C7	jz 77C1F0E3
+77C1F0E3	mov Dword ptr SS:[ebp-04h],ebx
+77C1F0E6	mov Dword ptr SS:[ebp-04h],00000001
+77C1F0ED	mov edx, 77B630C0
+77C1F0F2	mov ecx, esi
+77C1F0F4	call 77B67662
+77B67662	mov edi, edi
+77B67664	push ecx
+77B67665	push esi
+77B67666	push edi
+77B67667	mov edi, ecx
+77B67669	mov esi, edx
+77B6766B	cmp Dword ptr DS:[edi+60h],EEFFEEFF
+77B67672	jnz 77BCAD89
+77B67678	mov al, 01
+77B6767A	pop edi
+77B6767B	pop esi
+77B6767C	pop ecx
+77B6767D	ret
+77C1F0F9	test al, al
+77C1F0FB	jz 77C1F3D2
+77C1F101	mov ecx,Dword ptr DS:[esi+44h]
+77C1F104	or ecx, edi
+77C1F106	mov Dword ptr SS:[ebp-2Ch],ecx
+77C1F109	mov edi, ecx
+77C1F10B	or edi, 10000100
+77C1F111	mov Dword ptr SS:[ebp-34h],edi
+77C1F114	mov edx,Dword ptr SS:[ebp+08h]
+77C1F117	test edx, edx
+77C1F119	mov Dword ptr SS:[ebp-20h],edx
+77C1F11C	jnz 77C1F125
+77C1F125	mov eax,Dword ptr DS:[esi+00000094]
+77C1F12B	add eax,Dword ptr SS:[ebp-20h]
+77C1F12E	and eax,Dword ptr DS:[esi+00000098]
+77C1F134	cmp eax, 10
+77C1F137	jnb 77C1F13C
+77C1F13C	add eax, 08
+77C1F13F	mov Dword ptr SS:[ebp-40h],eax
+77C1F142	cmp eax, edx
+77C1F144	jb 77C1F350
+77C1F14A	cmp eax,Dword ptr DS:[esi+78h]
+77C1F14D	ja 77C1F350
+77C1F153	test cl,01
+77C1F156	jnz 77C1F173
+77C1F158	push Dword ptr DS:[esi+000000C8]
+77C1F15E	call 77B7FED0
+77B7FED0	mov edi, edi
+77B7FED2	push ebp
+77B7FED3	mov ebp, esp
+77B7FED5	and esp, -08
+77B7FED8	mov ecx,Dword ptr SS:[ebp+08h]
+77B7FEDB	mov edx,Dword ptr FS:[00000018] 
+77B7FEE2	lea eax,Dword ptr DS:[ecx+04h]
+77B7FEE5	lock ??? 
+77B7FEEA	jnb 77B7FF01
+77B7FEEC	mov eax,Dword ptr DS:[edx+24h]
+77B7FEEF	mov Dword ptr DS:[ecx+0Ch],eax
+77B7FEF2	xor eax, eax
+77B7FEF4	mov Dword ptr DS:[ecx+08h],00000001
+77B7FEFB	mov esp, ebp
+77B7FEFD	pop ebp
+77B7FEFE	ret 0004
+77C1F163	mov Byte ptr SS:[ebp-19h],01h
+77C1F167	mov edi,Dword ptr SS:[ebp-2Ch]
+77C1F16A	or edi, 10000101
+77C1F170	mov Dword ptr SS:[ebp-34h],edi
+77C1F173	xor dl, dl
+77C1F175	mov ecx, esi
+77C1F177	call 77C20835
+77C20835	mov edi, edi
+77C20837	push ebp
+77C20838	mov ebp, esp
+77C2083A	sub esp, 1C
+77C2083D	push ebx
+77C2083E	push esi
+77C2083F	push edi
+77C20840	mov bl, dl
+77C20842	mov edi, ecx
+77C20844	xor esi, esi
+77C20846	mov Dword ptr SS:[ebp-10h],edi
+77C20849	xor dl, dl
+77C2084B	mov Dword ptr SS:[ebp-0Ch],esi
+77C2084E	mov Dword ptr SS:[ebp-04h],esi
+77C20851	call 77C20D24
+77C20D24	mov edi, edi
+77C20D26	push ebp
+77C20D27	mov ebp, esp
+77C20D29	push ecx
+77C20D2A	cmp Byte ptr DS:[77C66D70],00h
+77C20D31	push ebx
+77C20D32	push esi
+77C20D33	push edi
+77C20D34	mov esi, ecx
+77C20D36	jz 77C20E66
+77C20E66	mov al, 01
+77C20E68	pop edi
+77C20E69	pop esi
+77C20E6A	pop ebx
+77C20E6B	leave
+77C20E6C	ret
+77C20856	xor ecx, ecx
+77C20858	inc ecx
+77C20859	test al, al
+77C2085B	jz 77C20B74
+77C20861	test bl, bl
+77C20863	jnz 77C20872
+77C20865	test Dword ptr DS:[edi+40h],20000000
+77C2086C	jz 77C20C74
+77C20C74	mov al, cl
+77C20C76	jmp 77C20BAB
+77C20BAB	pop edi
+77C20BAC	pop esi
+77C20BAD	pop ebx
+77C20BAE	leave
+77C20BAF	ret
+77C1F17C	push Dword ptr SS:[ebp+08h]
+77C1F17F	push edi
+77C1F180	push esi
+77C1F181	call 77B85D90
+77B85D90	mov edi, edi
+77B85D92	push ebp
+77B85D93	mov ebp, esp
+77B85D95	and esp, -08
+77B85D98	push ecx
+77B85D99	push esi
+77B85D9A	mov esi,Dword ptr SS:[ebp+08h]
+77B85D9D	test esi, esi
+77B85D9F	jz 77BC90B5
+77B85DA5	cmp Dword ptr DS:[esi+08h],DDEEDDEE
+77B85DAC	mov ecx, esi
+77B85DAE	mov edx,Dword ptr SS:[ebp+10h]
+77B85DB1	jz 77BC90CC
+77B85DB7	test Byte ptr DS:[77C66938],38
+77B85DBE	jnz 77BC90D9
+77B85DC4	push 00
+77B85DC6	push Dword ptr SS:[ebp+0Ch]
+77B85DC9	call 77B85DE0
+77B85DE0	mov edi, edi
+77B85DE2	push ebx
+77B85DE3	mov ebx, esp
+77B85DE5	sub esp, 08
+77B85DE8	and esp, -08
+77B85DEB	add esp, 04
+77B85DEE	push ebp
+77B85DEF	mov ebp,Dword ptr DS:[ebx+04h]
+77B85DF2	mov Dword ptr SS:[esp+04h],ebp
+77B85DF6	mov ebp, esp
+77B85DF8	sub esp, 74
+77B85DFB	push esi
+77B85DFC	push edi
+77B85DFD	mov edi, ecx
+77B85DFF	mov esi, edx
+77B85E01	mov ecx,Dword ptr DS:[ebx+08h]
+77B85E04	mov Dword ptr SS:[ebp-18h],esi
+77B85E07	mov Dword ptr SS:[ebp-0Ch],edi
+77B85E0A	cmp Dword ptr DS:[edi+08h],DDEEDDEE
+77B85E11	jnz 77B85EF3
+77B85EF3	xor eax, eax
+77B85EF5	mov Dword ptr SS:[ebp-30h],00000000
+77B85EFC	mov Dword ptr SS:[ebp-4Ch],eax
+77B85EFF	mov eax,Dword ptr DS:[edi+44h]
+77B85F02	or ecx, eax
+77B85F04	mov Dword ptr SS:[ebp-1Ch],ecx
+77B85F07	mov Dword ptr SS:[ebp-38h],00000000
+77B85F0E	cmp esi, 7FFFFFFF
+77B85F14	jbe 77B85F22
+77B85F22	and eax, 01000000
+77B85F27	jnz 77B85F75
+77B85F29	cmp Dword ptr DS:[77C6373C],eax
+77B85F2F	jnz 77B85F75
+77B85F31	mov edx,Dword ptr DS:[edi+000000DC]
+77B85F37	mov ecx, edx
+77B85F39	test ecx, ecx
+77B85F3B	jnz 77B85F47
+77B85F3D	mov ecx,Dword ptr DS:[77C64334]
+77B85F43	test ecx, ecx
+77B85F45	jz 77B85F72
+77B85F72	mov ecx,Dword ptr SS:[ebp-1Ch]
+77B85F75	mov edx,Dword ptr DS:[edi+58h]
+77B85F78	mov Dword ptr SS:[ebp-3Ch],edx
+77B85F7B	test edx, edx
+77B85F7D	jz 77B85FC5
+77B85FC5	mov eax, esi
+77B85FC7	test esi, esi
+77B85FC9	jnz 77B85FD0
+77B85FD0	add eax, 0F
+77B85FD3	and eax, -08
+77B85FD6	mov edx, eax
+77B85FD8	mov Dword ptr SS:[ebp-4Ch],eax
+77B85FDB	shr edx, 03
+77B85FDE	test Dword ptr SS:[ebp-1Ch],7D810F61
+77B85FE5	mov Dword ptr SS:[ebp-28h],edx
+77B85FE8	jnz 77B86E13
+77B86E13	xor eax, eax
+77B86E15	mov edx,Dword ptr SS:[ebp-1Ch]
+77B86E18	lea ecx,Dword ptr SS:[ebp-30h]
+77B86E1B	push ecx
+77B86E1C	push eax
+77B86E1D	mov eax,Dword ptr SS:[ebp-4Ch]
+77B86E20	or edx, 02
+77B86E23	push eax
+77B86E24	push esi
+77B86E25	mov ecx, edi
+77B86E27	call 77B86FE0
+77B86FE0	mov edi, edi
+77B86FE2	push ebp
+77B86FE3	mov ebp, esp
+77B86FE5	push -02
+77B86FE7	push 77C4C1C8
+77B86FEC	push 77BBAD20
+77B86FF1	mov eax, Dword ptr FS:[00000000] 
+77B86FF7	push eax
+77B86FF8	sub esp, 00000180
+77B86FFE	push ebx
+77B86FFF	push esi
+77B87000	push edi
+77B87001	mov eax, Dword ptr DS:[77C6B370]
+77B87006	xor Dword ptr SS:[ebp-08h],eax
+77B87009	xor eax, ebp
+77B8700B	push eax
+77B8700C	lea eax,Dword ptr SS:[ebp-10h]
+77B8700F	mov Dword ptr FS:[00000000], eax 
+77B87015	mov ebx, edx
+77B87017	mov Dword ptr SS:[ebp-74h],ebx
+77B8701A	mov edi, ecx
+77B8701C	mov Dword ptr SS:[ebp-78h],edi
+77B8701F	mov Dword ptr SS:[ebp+FFFFFF78],00000000
+77B87029	mov Dword ptr SS:[ebp-70h],00000001
+77B87030	mov Byte ptr SS:[ebp-2Dh],00h
+77B87034	mov Dword ptr SS:[ebp-54h],00000000
+77B8703B	mov Dword ptr SS:[ebp-40h],00000000
+77B87042	mov Dword ptr SS:[ebp+FFFFFF6C],00000000
+77B8704C	mov esi,Dword ptr SS:[ebp+0Ch]
+77B8704F	shr esi, 03
+77B87052	test ebx,7D010F60
+77B87058	jnz 77B8708C
+77B8708C	xor eax, eax
+77B8708E	mov Dword ptr SS:[ebp-70h],eax
+77B87091	mov eax,Dword ptr SS:[ebp+14h]
+77B87094	mov Dword ptr DS:[eax], 00000004
+77B8709A	mov eax,Dword ptr SS:[ebp+08h]
+77B8709D	cmp eax, 7FFFFFFF
+77B870A2	jbe 77B870BA
+77B870BA	test ebx,61000000
+77B870C0	jz 77B870E4
+77B870C2	test ebx,10000000
+77B870C8	jnz 77B870E4
+77B870E4	test eax, eax
+77B870E6	jnz 77B870ED
+77B870ED	mov edx,Dword ptr DS:[edi+00000094]
+77B870F3	add edx, eax
+77B870F5	and edx,Dword ptr DS:[edi+00000098]
+77B870FB	cmp edx, 10
+77B870FE	jnb 77B87105
+77B87105	mov Dword ptr SS:[ebp+0Ch],edx
+77B87108	mov ecx, ebx
+77B8710A	shr ecx, 04
+77B8710D	and ecx, -1F
+77B87110	or ecx, 01
+77B87113	mov Dword ptr SS:[ebp-34h],ecx
+77B87116	test ebx,3C000100
+77B8711C	jnz 77B87127
+77B87127	or ecx, 02
+77B8712A	mov Dword ptr SS:[ebp-34h],ecx
+77B8712D	add edx, 08
+77B87130	mov Dword ptr SS:[ebp+0Ch],edx
+77B87133	shr edx, 03
+77B87136	mov Dword ptr SS:[ebp-24h],edx
+77B87139	and ebx, 00800000
+77B8713F	jz 77B87156
+77B87156	mov Dword ptr SS:[ebp-04h],00000000
+77B8715D	test Byte ptr SS:[ebp-74h],01
+77B87161	jnz 77B871F4
+77B871F4	cmp edx,Dword ptr DS:[edi+5Ch]
+77B871F7	ja 77B889DF
+77B871FD	test ebx, ebx
+77B871FF	jnz 77B8732E
+77B87205	movzx eax,Word ptr DS:[edi+000000F0]
+77B8720C	cmp esi, eax
+77B8720E	mov eax,Dword ptr SS:[ebp+08h]
+77B87211	jb 77B8724D
+77B8724D	cmp eax,Dword ptr DS:[77C63928]
+77B87253	ja 77B8732E
+77B87259	mov eax, esi
+77B8725B	shr eax, 03
+77B8725E	add eax, 000000F2
+77B87263	add eax, edi
+77B87265	mov Dword ptr SS:[ebp-44h],eax
+77B87268	mov dl,byte ptr DS:[eax]
+77B8726A	mov ebx, esi
+77B8726C	and ebx, 07
+77B8726F	mov eax, 00000001
+77B87274	mov ecx, ebx
+77B87276	shl eax, cl
+77B87278	test dl, al
+77B8727A	jnz 77B8732B
+77B87280	mov eax,Dword ptr DS:[edi+000000EC]
+77B87286	lea esi,Dword ptr DS:[esi*2+eax]
+77B87289	mov Dword ptr SS:[ebp+FFFFFEFC],esi
+77B8728F	add Word ptr DS:[esi],21h 
+77B87293	mov cx,Word ptr DS:[esi] 
+77B87296	cmp Dword ptr SS:[ebp+FFFFFF6C],00h
+77B8729D	jnz 77B872C7
+77B8729F	mov al, cl
+77B872A1	and al, 1F
+77B872A3	cmp al, 10
+77B872A5	ja 77B872BD
+77B872A7	mov eax, 0000FF00
+77B872AC	cmp cx, ax 
+77B872AF	ja 77B872BD
+77B872B1	mov Dword ptr SS:[ebp+FFFFFF48],00000000
+77B872BB	jmp 77B8732B
+77B8732B	mov edx,Dword ptr SS:[ebp-24h]
+77B8732E	mov esi,Dword ptr SS:[ebp+10h]
+77B87331	test esi, esi
+77B87333	jz 77B87589
+77B87589	lea eax,Dword ptr DS:[edi+000000C0]
+77B8758F	mov Dword ptr SS:[ebp+FFFFFF38],eax
+77B87595	mov esi,Dword ptr DS:[edi+000000B4]
+77B8759B	mov Dword ptr SS:[ebp-28h],esi
+77B8759E	mov edi, edi
+77B875A0	mov ecx,Dword ptr DS:[esi+04h]
+77B875A3	cmp edx, ecx
+77B875A5	jnb 77B875B1
+77B875A7	mov Dword ptr SS:[ebp+FFFFFF54],edx
+77B875AD	mov eax, edx
+77B875AF	jmp 77B875C4
+77B875C4	mov Dword ptr SS:[ebp-44h],eax
+77B875C7	jmp 77B875D0
+77B875D0	sub eax,Dword ptr DS:[esi+14h]
+77B875D3	mov Dword ptr SS:[ebp-4Ch],eax
+77B875D6	mov Dword ptr SS:[ebp-20h],00000000
+77B875DD	mov edx,Dword ptr DS:[esi+18h]
+77B875E0	mov Dword ptr SS:[ebp-5Ch],edx
+77B875E3	mov eax,Dword ptr DS:[edx+04h]
+77B875E6	cmp edx, eax
+77B875E8	jnz 77B875F1
+77B875F1	add eax, -08
+77B875F4	mov Dword ptr SS:[ebp-1Ch],eax
+77B875F7	mov ebx,Dword ptr DS:[eax]
+77B875F9	mov Dword ptr SS:[ebp+FFFFFEA8],ebx
+77B875FF	cmp Dword ptr DS:[edi+4Ch],00h
+77B87603	jz 77B8763D
+77B87605	xor ebx,Dword ptr DS:[edi+50h]
+77B87608	mov Dword ptr SS:[ebp+FFFFFEA8],ebx
+77B8760E	mov ecx, ebx
+77B87610	shr ecx, 10
+77B87613	mov eax, ebx
+77B87615	shr eax, 08
+77B87618	xor cl, al
+77B8761A	xor cl, bl
+77B8761C	mov eax, ebx
+77B8761E	shr eax, 18
+77B87621	cmp al, cl
+77B87623	jz 77B8763D
+77B8763D	movzx eax,bx
+77B87640	mov ecx,Dword ptr SS:[ebp-24h]
+77B87643	sub ecx, eax
+77B87645	mov Dword ptr SS:[ebp+FFFFFEF0],ecx
+77B8764B	test ecx, ecx
+77B8764D	jle 77B87656
+77B87656	mov eax,Dword ptr DS:[edx]
+77B87658	add eax, -08
+77B8765B	mov Dword ptr SS:[ebp-1Ch],eax
+77B8765E	mov ebx,Dword ptr DS:[eax]
+77B87660	mov Dword ptr SS:[ebp+FFFFFEA0],ebx
+77B87666	cmp Dword ptr DS:[edi+4Ch],00h
+77B8766A	jz 77B876A4
+77B8766C	xor ebx,Dword ptr DS:[edi+50h]
+77B8766F	mov Dword ptr SS:[ebp+FFFFFEA0],ebx
+77B87675	mov ecx, ebx
+77B87677	shr ecx, 10
+77B8767A	mov eax, ebx
+77B8767C	shr eax, 08
+77B8767F	xor cl, al
+77B87681	xor cl, bl
+77B87683	mov eax, ebx
+77B87685	shr eax, 18
+77B87688	cmp al, cl
+77B8768A	jz 77B876A4
+77B876A4	movzx eax,bx
+77B876A7	mov ecx,Dword ptr SS:[ebp-24h]
+77B876AA	sub ecx, eax
+77B876AC	mov Dword ptr SS:[ebp+FFFFFEEC],ecx
+77B876B2	test ecx, ecx
+77B876B4	jg 77B876BD
+77B876BD	cmp Dword ptr DS:[esi],00h
+77B876C0	jnz 77B8775A
+77B876C6	mov eax,Dword ptr DS:[esi+04h]
+77B876C9	dec eax
+77B876CA	cmp Dword ptr SS:[ebp-44h],eax
+77B876CD	jnz 77B8775A
+77B8775A	mov ecx,Dword ptr SS:[ebp-4Ch]
+77B8775D	mov edx, ecx
+77B8775F	shr edx, 05
+77B87762	mov eax,Dword ptr DS:[esi+04h]
+77B87765	sub eax,Dword ptr DS:[esi+14h]
+77B87768	shr eax, 05
+77B8776B	dec eax
+77B8776C	mov Dword ptr SS:[ebp-1Ch],eax
+77B8776F	mov eax,Dword ptr DS:[esi+1Ch]
+77B87772	lea eax,Dword ptr DS:[edx*4+eax]
+77B87775	and ecx, 1F
+77B87778	or ebx, -01
+77B8777B	shl ebx, cl
+77B8777D	and ebx,Dword ptr DS:[eax]
+77B8777F	mov ecx,Dword ptr SS:[ebp-1Ch]
+77B87782	mov Dword ptr SS:[ebp+FFFFFF3C],eax
+77B87788	mov Dword ptr SS:[ebp+FFFFFF68],edx
+77B8778E	test ebx, ebx
+77B87790	jnz 77B877A6
+77B877A6	test bx, bx 
+77B877A9	jz 77B877CD
+77B877AB	movzx eax,bl
+77B877AE	test bl, bl
+77B877B0	jz 77B877BB
+77B877BB	shr ebx, 08
+77B877BE	movzx eax,bl
+77B877C1	movzx eax,Byte ptr DS:[eax+77B489B0]
+77B877C8	add eax, 08
+77B877CB	jmp 77B877F2
+77B877F2	shl edx, 05
+77B877F5	add edx, eax
+77B877F7	mov Dword ptr SS:[ebp+FFFFFF68],edx
+77B877FD	cmp Dword ptr DS:[esi+08h],00h
+77B87801	jz 77B87805
+77B87805	mov eax,Dword ptr DS:[esi+20h]
+77B87808	mov eax,Dword ptr DS:[edx*4+eax]
+77B8780B	mov Dword ptr SS:[ebp-20h],eax
+77B8780E	test eax, eax
+77B87810	jz 77B889C8
+77B87816	mov Dword ptr SS:[ebp+FFFFFEE4],eax
+77B8781C	cmp Dword ptr SS:[ebp+FFFFFF38],eax
+77B87822	jz 77B87A69
+77B87828	lea ebx,Dword ptr DS:[eax-08h]
+77B8782B	mov Dword ptr SS:[ebp-58h],ebx
+77B8782E	cmp Dword ptr DS:[edi+4Ch],00h
+77B87832	jz 77B87853
+77B87834	mov eax,Dword ptr DS:[edi+50h]
+77B87837	xor Dword ptr DS:[ebx],eax
+77B87839	mov al,byte ptr DS:[ebx+02h]
+77B8783C	xor al,byte ptr DS:[ebx+01h]
+77B8783F	xor al,byte ptr DS:[ebx]
+77B87841	cmp byte ptr DS:[ebx+03h],al
+77B87844	jz 77B87850
+77B87850	mov eax,Dword ptr SS:[ebp-20h]
+77B87853	movzx esi,Word ptr DS:[ebx]
+77B87856	cmp esi,Dword ptr SS:[ebp-24h]
+77B87859	jb 77B87A53
+77B8785F	mov edx,Dword ptr DS:[ebx+08h]
+77B87862	mov Dword ptr SS:[ebp-7Ch],edx
+77B87865	mov ecx,Dword ptr DS:[ebx+0Ch]
+77B87868	mov Dword ptr SS:[ebp+FFFFFF74],ecx
+77B8786E	mov ecx,Dword ptr DS:[ecx]
+77B87870	mov edx,Dword ptr DS:[edx+04h]
+77B87873	cmp ecx, edx
+77B87875	jnz 77B87A39
+77B8787B	cmp ecx, eax
+77B8787D	jnz 77B87A39
+77B87883	sub Dword ptr DS:[edi+74h],esi
+77B87886	mov ecx,Dword ptr DS:[edi+000000B4]
+77B8788C	mov Dword ptr SS:[ebp-28h],ecx
+77B8788F	test ecx, ecx
+77B87891	jz 77B879A7
+77B87897	movzx esi,Word ptr DS:[ebx]
+77B8789A	mov Dword ptr SS:[ebp-44h],esi
+77B8789D	lea ecx,Dword ptr DS:[ecx+00h]
+77B878A0	mov edx,Dword ptr DS:[ecx+04h]
+77B878A3	cmp esi, edx
+77B878A5	jb 77B878B7
+77B878B7	mov Dword ptr SS:[ebp+FFFFFF34],esi
+77B878BD	movzx eax,Word ptr DS:[ebx]
+77B878C0	mov Dword ptr SS:[ebp-68h],eax
+77B878C3	mov edx, esi
+77B878C5	sub edx,Dword ptr DS:[ecx+14h]
+77B878C8	mov Dword ptr SS:[ebp-20h],edx
+77B878CB	cmp Dword ptr DS:[ecx+08h],00h
+77B878CF	lea eax,Dword ptr DS:[edx+edx]
+77B878D2	jnz 77B878D6
+77B878D4	mov eax, edx
+77B878D6	lea edi,Dword ptr DS:[eax*4+00000000]
+77B878DD	mov Dword ptr SS:[ebp-4Ch],edi
+77B878E0	mov eax,Dword ptr DS:[ecx+20h]
+77B878E3	add eax, edi
+77B878E5	mov Dword ptr SS:[ebp-5Ch],eax
+77B878E8	mov eax,Dword ptr DS:[eax]
+77B878EA	mov Dword ptr SS:[ebp-1Ch],eax
+77B878ED	dec Dword ptr DS:[ecx+0Ch]
+77B878F0	mov eax,Dword ptr DS:[ecx+04h]
+77B878F3	lea edi,Dword ptr DS:[eax-01h]
+77B878F6	mov Dword ptr SS:[ebp-2Ch],edi
+77B878F9	cmp esi, edi
+77B878FB	mov edi,Dword ptr SS:[ebp-78h]
+77B878FE	jnz 77B87903
+77B87903	lea esi,Dword ptr DS:[ebx+08h]
+77B87906	cmp Dword ptr SS:[ebp-1Ch],esi
+77B87909	jnz 77B879A7
+77B8790F	mov Dword ptr SS:[ebp+FFFFFF30],eax
+77B87915	cmp Dword ptr DS:[ecx],00h
+77B87918	jnz 77B87923
+77B8791A	mov eax,Dword ptr SS:[ebp-2Ch]
+77B8791D	mov Dword ptr SS:[ebp+FFFFFF30],eax
+77B87923	mov esi,Dword ptr DS:[esi]
+77B87925	mov edi,Dword ptr DS:[ecx+18h]
+77B87928	mov Dword ptr SS:[ebp-1Ch],edi
+77B8792B	cmp Dword ptr SS:[ebp-44h],eax
+77B8792E	mov edi,Dword ptr SS:[ebp-78h]
+77B87931	jnb 77B87A12
+77B87937	cmp esi,Dword ptr DS:[ecx+18h]
+77B8793A	jz 77B879E3
+77B87940	mov ebx,Dword ptr DS:[esi-08h]
+77B87943	mov Dword ptr SS:[ebp+FFFFFE90],ebx
+77B87949	cmp Dword ptr DS:[edi+4Ch],00h
+77B8794D	jz 77B8798B
+77B8794F	xor ebx,Dword ptr DS:[edi+50h]
+77B87952	mov Dword ptr SS:[ebp+FFFFFE90],ebx
+77B87958	mov ecx, ebx
+77B8795A	shr ecx, 10
+77B8795D	mov eax, ebx
+77B8795F	shr eax, 08
+77B87962	xor cl, al
+77B87964	xor cl, bl
+77B87966	mov eax, ebx
+77B87968	shr eax, 18
+77B8796B	cmp al, cl
+77B8796D	jz 77B87988
+77B87988	mov ecx,Dword ptr SS:[ebp-28h]
+77B8798B	movzx eax,bx
+77B8798E	mov ebx,Dword ptr SS:[ebp-68h]
+77B87991	sub ebx, eax
+77B87993	mov Dword ptr SS:[ebp+FFFFFEE0],ebx
+77B87999	jnz 77B879E0
+77B879E0	mov ebx,Dword ptr SS:[ebp-58h]
+77B879E3	mov eax,Dword ptr DS:[ecx+20h]
+77B879E6	mov ecx,Dword ptr SS:[ebp-4Ch]
+77B879E9	mov Dword ptr DS:[eax+ecx],00000000
+77B879F0	mov esi, edx
+77B879F2	shr esi, 05
+77B879F5	and edx, 1F
+77B879F8	mov Dword ptr SS:[ebp-20h],edx
+77B879FB	mov edx, 00000001
+77B87A00	mov ecx,Dword ptr SS:[ebp-20h]
+77B87A03	shl edx, cl
+77B87A05	mov eax,Dword ptr SS:[ebp-28h]
+77B87A08	mov eax,Dword ptr DS:[eax+1Ch]
+77B87A0B	not edx
+77B87A0D	and Dword ptr DS:[esi*4+eax],edx
+77B87A10	jmp 77B879A7
+77B879A7	mov eax,Dword ptr SS:[ebp-7Ch]
+77B879AA	mov ecx,Dword ptr SS:[ebp+FFFFFF74]
+77B879B0	mov Dword ptr DS:[ecx],eax
+77B879B2	mov Dword ptr DS:[eax+04h],ecx
+77B879B5	test Byte ptr DS:[ebx+02h],08
+77B879B9	jz 77B87A30
+77B87A30	mov Byte ptr SS:[ebp-36h],01h
+77B87A34	jmp 77B87B18
+77B87B18	mov cl,byte ptr DS:[ebx+02h]
+77B87B1B	mov byte ptr SS:[ebp-37h],cl
+77B87B1E	mov esi,Dword ptr SS:[ebp-70h]
+77B87B21	test esi, esi
+77B87B23	jnz 77B87BEF
+77B87B29	test cl,04
+77B87B2C	jz 77B87BEF
+77B87B32	movzx eax,Word ptr DS:[ebx]
+77B87B35	lea esi,Dword ptr DS:[eax*8+FFFFFFF0]
+77B87B3C	mov Dword ptr SS:[ebp+FFFFFF28],esi
+77B87B42	test cl,02
+77B87B45	jz 77B87B55
+77B87B55	push FEEEFEEE
+77B87B5A	push esi
+77B87B5B	lea eax,Dword ptr DS:[ebx+10h]
+77B87B5E	push eax
+77B87B5F	call 77BC80A0
+77BC80A0	push edi
+77BC80A1	mov edi,Dword ptr SS:[esp+08h]
+77BC80A5	mov ecx,Dword ptr SS:[esp+0Ch]
+77BC80A9	mov eax,Dword ptr SS:[esp+10h]
+77BC80AD	shr ecx, 02
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B2	jz 77BC80B7
+77BC80B7	sub edi,Dword ptr SS:[esp+08h]
+77BC80BB	mov eax, edi
+77BC80BD	pop edi
+77BC80BE	ret 000C
+77B87B64	mov Dword ptr SS:[ebp-1Ch],eax
+77B87B67	cmp eax, esi
+77B87B69	jz 77B87BEC
+77B87BEC	mov esi,Dword ptr SS:[ebp-70h]
+77B87BEF	mov Dword ptr SS:[ebp-64h],ebx
+77B87BF2	test Byte ptr DS:[ebx+02h],01
+77B87BF6	jz 77B87C10
+77B87C10	mov eax,Dword ptr SS:[ebp-34h]
+77B87C13	mov byte ptr DS:[ebx+02h],al
+77B87C16	movzx edx,Word ptr DS:[ebx]
+77B87C19	mov ecx,Dword ptr SS:[ebp-24h]
+77B87C1C	sub edx, ecx
+77B87C1E	mov Dword ptr SS:[ebp-4Ch],edx
+77B87C21	mov Dword ptr SS:[ebp+FFFFFEDC],edx
+77B87C27	movzx eax,cx
+77B87C2A	mov Dword ptr SS:[ebp-1Ch],eax
+77B87C2D	mov Word ptr DS:[ebx],ax 
+77B87C30	mov eax,Dword ptr SS:[ebp+0Ch]
+77B87C33	sub eax,Dword ptr SS:[ebp+08h]
+77B87C36	mov Dword ptr SS:[ebp-68h],eax
+77B87C39	cmp eax, 3F
+77B87C3C	jnb 77B87C43
+77B87C3E	mov byte ptr DS:[ebx+07h],al
+77B87C41	jmp 77B87C4B
+77B87C4B	mov Byte ptr DS:[ebx+03h],00h
+77B87C4F	test edx, edx
+77B87C51	jz 77B87C71
+77B87C53	cmp edx, 01
+77B87C56	jnz 77B87E2D
+77B87E2D	xor eax, eax
+77B87E2F	test esi, esi
+77B87E31	sete al
+77B87E34	mov Dword ptr SS:[ebp-28h],eax
+77B87E37	mov Dword ptr SS:[ebp+FFFFFF4C],eax
+77B87E3D	mov al,byte ptr DS:[ebx+06h]
+77B87E40	test al, al
+77B87E42	jz 77B87E5E
+77B87E5E	mov ecx, edi
+77B87E60	mov esi, edi
+77B87E62	mov Dword ptr SS:[ebp+FFFFFF24],ecx
+77B87E68	mov Dword ptr SS:[ebp-2Ch],edx
+77B87E6B	mov eax,Dword ptr SS:[ebp-24h]
+77B87E6E	lea ebx,Dword ptr DS:[eax*8+ebx]
+77B87E71	mov Dword ptr SS:[ebp-44h],00000000
+77B87E78	mov al,byte ptr SS:[ebp-37h]
+77B87E7B	mov byte ptr DS:[ebx+02h],al
+77B87E7E	mov Byte ptr DS:[ebx+07h],00h
+77B87E82	mov ax,Word ptr DS:[edi+54h] 
+77B87E86	xor ax,Word ptr SS:[ebp-1Ch] 
+77B87E8A	mov Word ptr DS:[ebx+04h],ax 
+77B87E8E	cmp Dword ptr DS:[ecx+18h],esi
+77B87E91	jnz 77B87E97
+77B87E93	xor al, al
+77B87E95	jmp 77B87EC5
+77B87EC5	mov byte ptr SS:[ebp-6Ah],al
+77B87EC8	mov byte ptr DS:[ebx+06h],al
+77B87ECB	mov Byte ptr DS:[ebx+03h],00h
+77B87ECF	mov Word ptr DS:[ebx],dx 
+77B87ED2	lea esi,Dword ptr DS:[edx*8+ebx]
+77B87ED5	mov ecx,Dword ptr DS:[edi+4Ch]
+77B87ED8	mov eax, ecx
+77B87EDA	shr eax, 14
+77B87EDD	and al,byte ptr DS:[edi+52h]
+77B87EE0	xor al,byte ptr DS:[esi+02h]
+77B87EE3	test al, 01
+77B87EE5	jz 77B88459
+77B87EEB	movzx edx,dx
+77B87EEE	mov Dword ptr SS:[ebp-24h],edx
+77B87EF1	mov ax,Word ptr DS:[edi+54h] 
+77B87EF5	xor ax, dx 
+77B87EF8	mov Word ptr DS:[esi+04h],ax 
+77B87EFC	cmp Byte ptr SS:[ebp-28h],00h
+77B87F00	jnz 77B88357
+77B88357	mov al,byte ptr DS:[ebx+02h]
+77B8835A	and al, F0
+77B8835C	mov byte ptr DS:[ebx+02h],al
+77B8835F	mov Byte ptr DS:[ebx+07h],00h
+77B88363	test Byte ptr DS:[edi+40h],40
+77B88367	jz 77B88386
+77B88369	push FEEEFEEE
+77B8836E	lea eax,Dword ptr DS:[edx*8+FFFFFFF0]
+77B88375	push eax
+77B88376	lea eax,Dword ptr DS:[ebx+10h]
+77B88379	push eax
+77B8837A	call 77BC8140
+77BC8140	push edi
+77BC8141	mov edi,Dword ptr SS:[esp+08h]
+77BC8145	mov ecx,Dword ptr SS:[esp+0Ch]
+77BC8149	mov eax,Dword ptr SS:[esp+10h]
+77BC814D	shr ecx, 02
+77BC8150	rep stos Dword ptr ES:[edi]
+77BC8150	rep stos Dword ptr ES:[edi]
+77BC8150	rep stos Dword ptr ES:[edi]
+77BC8150	rep stos Dword ptr ES:[edi]
+77BC8152	pop edi
+77BC8153	ret 000C
+77B8837F	or Byte ptr DS:[ebx+02h],04h
+77B88383	mov edx,Dword ptr SS:[ebp-24h]
+77B88386	lea esi,Dword ptr DS:[edi+000000C0]
+77B8838C	cmp Dword ptr DS:[edi+000000B4],00h
+77B88393	jz 77B883A0
+77B88395	mov ecx, edi
+77B88397	call 77B71C0E
+77B71C0E	mov edi, edi
+77B71C10	push ebx
+77B71C11	mov ebx, ecx
+77B71C13	push esi
+77B71C14	push edi
+77B71C15	mov edi, edx
+77B71C17	mov esi,Dword ptr DS:[ebx+000000B4]
+77B71C1D	cmp edi,Dword ptr DS:[esi+04h]
+77B71C20	jnb 77B71C39
+77B71C22	mov eax, edi
+77B71C24	push edi
+77B71C25	push eax
+77B71C26	push 01
+77B71C28	mov edx, esi
+77B71C2A	mov ecx, ebx
+77B71C2C	call 77B80D69
+77B80D69	mov edi, edi
+77B80D6B	push ebp
+77B80D6C	mov ebp, esp
+77B80D6E	sub esp, 18
+77B80D71	push ebx
+77B80D72	mov ebx, edx
+77B80D74	mov eax, ecx
+77B80D76	push esi
+77B80D77	push edi
+77B80D78	mov edi,Dword ptr SS:[ebp+0Ch]
+77B80D7B	xor esi, esi
+77B80D7D	mov ecx,Dword ptr DS:[ebx+18h]
+77B80D80	sub edi,Dword ptr DS:[ebx+14h]
+77B80D83	mov Dword ptr SS:[ebp-0Ch],eax
+77B80D86	mov Dword ptr SS:[ebp-10h],edi
+77B80D89	mov edx,Dword ptr DS:[ecx+04h]
+77B80D8C	mov Dword ptr SS:[ebp-04h],ecx
+77B80D8F	cmp ecx, edx
+77B80D91	jz 77B80DE4
+77B80D93	cmp Byte ptr SS:[ebp+08h],00h
+77B80D97	jz 77BD53FA
+77B80D9D	add edx, -08
+77B80DA0	mov Dword ptr SS:[ebp-14h],edx
+77B80DA3	mov edx,Dword ptr DS:[edx]
+77B80DA5	mov Dword ptr SS:[ebp-08h],edx
+77B80DA8	cmp Dword ptr DS:[eax+4Ch],esi
+77B80DAB	jz 77B80DD5
+77B80DAD	mov edx,Dword ptr DS:[eax+50h]
+77B80DB0	xor edx,Dword ptr SS:[ebp-08h]
+77B80DB3	mov ecx, edx
+77B80DB5	mov Dword ptr SS:[ebp-08h],edx
+77B80DB8	mov eax, edx
+77B80DBA	shr ecx, 10
+77B80DBD	shr eax, 08
+77B80DC0	xor cl, al
+77B80DC2	xor cl, dl
+77B80DC4	shr edx, 18
+77B80DC7	cmp dl, cl
+77B80DC9	jnz 77BD53E4
+77B80DCF	mov edx,Dword ptr SS:[ebp-08h]
+77B80DD2	mov ecx,Dword ptr SS:[ebp-04h]
+77B80DD5	movzx eax,dx
+77B80DD8	mov edx,Dword ptr SS:[ebp+10h]
+77B80DDB	sub edx, eax
+77B80DDD	mov eax,Dword ptr SS:[ebp-0Ch]
+77B80DE0	test edx, edx
+77B80DE2	jle 77B80DEF
+77B80DEF	cmp Byte ptr SS:[ebp+08h],00h
+77B80DF3	mov edx,Dword ptr DS:[ecx]
+77B80DF5	jz 77BD5421
+77B80DFB	add edx, -08
+77B80DFE	mov Dword ptr SS:[ebp-14h],edx
+77B80E01	mov edx,Dword ptr DS:[edx]
+77B80E03	mov Dword ptr SS:[ebp-08h],edx
+77B80E06	cmp Dword ptr DS:[eax+4Ch],esi
+77B80E09	jz 77B80E33
+77B80E0B	mov edx,Dword ptr DS:[eax+50h]
+77B80E0E	xor edx,Dword ptr SS:[ebp-08h]
+77B80E11	mov ecx, edx
+77B80E13	mov Dword ptr SS:[ebp-08h],edx
+77B80E16	mov eax, edx
+77B80E18	shr ecx, 10
+77B80E1B	shr eax, 08
+77B80E1E	xor cl, al
+77B80E20	xor cl, dl
+77B80E22	shr edx, 18
+77B80E25	cmp dl, cl
+77B80E27	jnz 77BD540B
+77B80E2D	mov edx,Dword ptr SS:[ebp-08h]
+77B80E30	mov ecx,Dword ptr SS:[ebp-04h]
+77B80E33	movzx eax,dx
+77B80E36	mov edx,Dword ptr SS:[ebp+10h]
+77B80E39	sub edx, eax
+77B80E3B	test edx, edx
+77B80E3D	jle 77B80F65
+77B80E43	cmp Dword ptr DS:[ebx],esi
+77B80E45	jnz 77B80EC0
+77B80E47	mov eax,Dword ptr DS:[ebx+04h]
+77B80E4A	dec eax
+77B80E4B	cmp Dword ptr SS:[ebp+0Ch],eax
+77B80E4E	jnz 77B80EC0
+77B80EC0	mov eax,Dword ptr DS:[ebx+04h]
+77B80EC3	or edx, -01
+77B80EC6	sub eax,Dword ptr DS:[ebx+14h]
+77B80EC9	mov ecx,Dword ptr SS:[ebp-10h]
+77B80ECC	shr eax, 05
+77B80ECF	and ecx, 1F
+77B80ED2	shr edi, 05
+77B80ED5	dec eax
+77B80ED6	mov Dword ptr SS:[ebp-0Ch],eax
+77B80ED9	mov eax,Dword ptr DS:[ebx+1Ch]
+77B80EDC	shl edx, cl
+77B80EDE	lea eax,Dword ptr DS:[edi*4+eax]
+77B80EE1	mov ecx, eax
+77B80EE3	mov Dword ptr SS:[ebp-14h],eax
+77B80EE6	and edx,Dword ptr DS:[ecx]
+77B80EE8	jz 77B80F12
+77B80EEA	test dx, dx 
+77B80EED	jz 77B80F2C
+77B80EEF	movzx eax,dl
+77B80EF2	test dl, dl
+77B80EF4	jz 77B80F47
+77B80EF6	movzx eax,Byte ptr DS:[eax+77B489B0]
+77B80EFD	shl edi, 05
+77B80F00	add edi, eax
+77B80F02	cmp Dword ptr DS:[ebx+08h],esi
+77B80F05	jnz 77B80F6C
+77B80F07	mov eax,Dword ptr DS:[ebx+20h]
+77B80F0A	mov esi,Dword ptr DS:[edi*4+eax]
+77B80F0D	jmp 77B80DE6
+77B80DE6	pop edi
+77B80DE7	mov eax, esi
+77B80DE9	pop esi
+77B80DEA	pop ebx
+77B80DEB	leave
+77B80DEC	ret 000C
+77B71C31	test eax, eax
+77B71C33	jz 77B71C43
+77B71C35	pop edi
+77B71C36	pop esi
+77B71C37	pop ebx
+77B71C38	ret
+77B8839C	mov ecx, eax
+77B8839E	jmp 77B883A2
+77B883A2	cmp esi, ecx
+77B883A4	jz 77B883D6
+77B883A6	cmp Dword ptr DS:[edi+4Ch],00h
+77B883AA	jz 77B883BF
+77B883AC	mov edx,Dword ptr DS:[ecx-08h]
+77B883AF	mov Dword ptr SS:[ebp-48h],edx
+77B883B2	test Dword ptr DS:[edi+4Ch],edx
+77B883B5	jz 77B883C3
+77B883B7	xor edx,Dword ptr DS:[edi+50h]
+77B883BA	mov Dword ptr SS:[ebp-48h],edx
+77B883BD	jmp 77B883C3
+77B883C3	mov Word ptr SS:[ebp+FFFFFF7E],dx 
+77B883CA	movzx eax,dx
+77B883CD	cmp Dword ptr SS:[ebp-24h],eax
+77B883D0	jbe 77B883D6
+77B883D6	lea esi,Dword ptr DS:[ebx+08h]
+77B883D9	mov eax,Dword ptr DS:[ecx+04h]
+77B883DC	mov edx,Dword ptr DS:[eax]
+77B883DE	cmp edx, ecx
+77B883E0	jnz 77B883EE
+77B883E2	mov Dword ptr DS:[esi],ecx
+77B883E4	mov Dword ptr DS:[esi+04h],eax
+77B883E7	mov Dword ptr DS:[eax],esi
+77B883E9	mov Dword ptr DS:[ecx+04h],esi
+77B883EC	jmp 77B883FE
+77B883FE	movzx eax,Word ptr DS:[ebx]
+77B88401	add Dword ptr DS:[edi+74h],eax
+77B88404	mov edx,Dword ptr DS:[edi+000000B4]
+77B8840A	test edx, edx
+77B8840C	jz 77B88436
+77B8840E	movzx ecx,Word ptr DS:[ebx]
+77B88411	cmp ecx,Dword ptr DS:[edx+04h]
+77B88414	jnb 77B8841A
+77B88416	mov eax, ecx
+77B88418	jmp 77B88424
+77B88424	mov Dword ptr SS:[ebp+FFFFFF18],eax
+77B8842A	push ecx
+77B8842B	push eax
+77B8842C	push esi
+77B8842D	push 01
+77B8842F	mov ecx, edi
+77B88431	call 77B71B5D
+77B71B5D	mov edi, edi
+77B71B5F	push ebp
+77B71B60	mov ebp, esp
+77B71B62	sub esp, 0C
+77B71B65	push ebx
+77B71B66	push esi
+77B71B67	mov esi, edx
+77B71B69	mov Dword ptr SS:[ebp-0Ch],ecx
+77B71B6C	push edi
+77B71B6D	mov edi,Dword ptr SS:[ebp+10h]
+77B71B70	sub edi,Dword ptr DS:[esi+14h]
+77B71B73	cmp Dword ptr DS:[esi+08h],00h
+77B71B77	jnz 77BC8DEB
+77B71B7D	mov edx, edi
+77B71B7F	mov Dword ptr SS:[ebp-04h],edi
+77B71B82	mov eax,Dword ptr DS:[esi+20h]
+77B71B85	inc Dword ptr DS:[esi+0Ch]
+77B71B88	mov ebx,Dword ptr DS:[edx*4+eax]
+77B71B8B	mov eax,Dword ptr DS:[esi+04h]
+77B71B8E	dec eax
+77B71B8F	cmp Dword ptr SS:[ebp+10h],eax
+77B71B92	jnz 77B71B97
+77B71B97	test ebx, ebx
+77B71B99	jnz 77B71BC3
+77B71BC3	cmp Byte ptr SS:[ebp+08h],00h
+77B71BC7	jz 77B71C06
+77B71BC9	mov eax,Dword ptr DS:[ebx-08h]
+77B71BCC	cmp Dword ptr DS:[ecx+4Ch],00h
+77B71BD0	jz 77B71BF8
+77B71BD2	mov edx,Dword ptr DS:[ecx+50h]
+77B71BD5	xor edx, eax
+77B71BD7	mov ecx, edx
+77B71BD9	mov Dword ptr SS:[ebp-08h],edx
+77B71BDC	mov eax, edx
+77B71BDE	shr ecx, 10
+77B71BE1	shr eax, 08
+77B71BE4	xor cl, al
+77B71BE6	mov eax, edx
+77B71BE8	xor cl, al
+77B71BEA	shr edx, 18
+77B71BED	cmp dl, cl
+77B71BEF	jnz 77BC8DF6
+77B71BF5	mov edx,Dword ptr SS:[ebp-04h]
+77B71BF8	mov ecx,Dword ptr SS:[ebp+14h]
+77B71BFB	movzx eax,ax
+77B71BFE	sub ecx, eax
+77B71C00	test ecx, ecx
+77B71C02	jle 77B71B9B
+77B71B9B	mov ecx,Dword ptr DS:[esi+20h]
+77B71B9E	mov eax,Dword ptr SS:[ebp+0Ch]
+77B71BA1	mov Dword ptr DS:[edx*4+ecx],eax
+77B71BA4	test ebx, ebx
+77B71BA6	jnz 77B71BBC
+77B71BBC	pop edi
+77B71BBD	pop esi
+77B71BBE	pop ebx
+77B71BBF	leave
+77B71BC0	ret 0010
+77B88436	cmp Dword ptr DS:[edi+4Ch],00h
+77B8843A	jz 77B887E3
+77B88440	mov al,byte ptr DS:[ebx+02h]
+77B88443	xor al,byte ptr DS:[ebx+01h]
+77B88446	xor al,byte ptr DS:[ebx]
+77B88448	mov byte ptr DS:[ebx+03h],al
+77B8844B	mov eax,Dword ptr DS:[edi+50h]
+77B8844E	xor Dword ptr DS:[ebx],eax
+77B88450	jmp 77B887E3
+77B887E3	mov Byte ptr SS:[ebp-69h],01h
+77B887E7	mov Byte ptr SS:[ebp-37h],00h
+77B887EB	jmp 77B87C71
+77B87C71	mov ecx,Dword ptr SS:[ebp-64h]
+77B87C74	lea esi,Dword ptr DS:[ecx+08h]
+77B87C77	mov Dword ptr SS:[ebp-54h],esi
+77B87C7A	movzx eax,Word ptr DS:[ecx]
+77B87C7D	lea edx,Dword ptr DS:[eax*8+00000000]
+77B87C84	mov Dword ptr SS:[ebp+FFFFFF78],edx
+77B87C8A	lea eax,Dword ptr DS:[ecx+07h]
+77B87C8D	mov Dword ptr SS:[ebp-1Ch],eax
+77B87C90	mov al,byte ptr DS:[eax]
+77B87C92	and al, 3F
+77B87C94	cmp al, 3F
+77B87C96	jnz 77B87CA1
+77B87CA1	cmp Dword ptr SS:[ebp-70h],00h
+77B87CA5	jz 77B88861
+77B88861	test Byte ptr SS:[ebp-74h],08
+77B88865	jz 77B888BA
+77B88867	lea eax,Dword ptr DS:[edx-08h]
+77B8886A	push eax
+77B8886B	push 00
+77B8886D	push esi
+77B8886E	call 77BB8F40
+77BB8F40	mov edx,Dword ptr SS:[esp+0Ch]
+77BB8F44	mov ecx,Dword ptr SS:[esp+04h]
+77BB8F48	test edx, edx
+77BB8F4A	jz 77BB8F9B
+77BB8F4C	xor eax, eax
+77BB8F4E	mov al,byte ptr SS:[esp+08h]
+77BB8F52	push edi
+77BB8F53	mov edi, ecx
+77BB8F55	cmp edx, 04
+77BB8F58	jb 77BB8F8B
+77BB8F5A	neg ecx
+77BB8F5C	and ecx, 03
+77BB8F5F	jz 77BB8F6D
+77BB8F6D	mov ecx, eax
+77BB8F6F	shl eax, 08
+77BB8F72	add eax, ecx
+77BB8F74	mov ecx, eax
+77BB8F76	shl eax, 10
+77BB8F79	add eax, ecx
+77BB8F7B	mov ecx, edx
+77BB8F7D	and edx, 03
+77BB8F80	shr ecx, 02
+77BB8F83	jz 77BB8F8B
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F87	test edx, edx
+77BB8F89	jz 77BB8F95
+77BB8F95	mov eax,Dword ptr SS:[esp+08h]
+77BB8F99	pop edi
+77BB8F9A	ret
+77B88873	add esp, 0C
+77B88876	mov ebx,Dword ptr SS:[ebp+08h]
+77B88879	test Byte ptr DS:[edi+40h],20
+77B8887D	jz 77B88895
+77B8887F	mov Dword ptr DS:[ebx+esi],ABABABAB
+77B88886	mov Dword ptr DS:[ebx+esi+04h],ABABABAB
+77B8888E	mov eax,Dword ptr SS:[ebp-64h]
+77B88891	or Byte ptr DS:[eax+02h],04h
+77B88895	mov ecx,Dword ptr SS:[ebp-64h]
+77B88898	lea ebx,Dword ptr DS:[ecx+03h]
+77B8889B	mov Byte ptr DS:[ebx],00h
+77B8889E	lea eax,Dword ptr DS:[ecx+02h]
+77B888A1	mov Dword ptr SS:[ebp-2Ch],eax
+77B888A4	test Byte ptr DS:[eax],02
+77B888A7	jz 77B88947
+77B888AD	mov eax,Dword ptr SS:[ebp-1Ch]
+77B888B0	cmp Byte ptr DS:[eax],04h
+77B888B3	jnz 77B888D8
+77B888D8	mov ecx,Dword ptr SS:[ebp-64h]
+77B888DB	movzx eax,Word ptr DS:[ecx]
+77B888DE	dec eax
+77B888DF	lea esi,Dword ptr DS:[eax*8+ecx]
+77B888E2	mov eax, esi
+77B888E4	mov Dword ptr SS:[ebp+FFFFFF58],esi
+77B888EA	xor ecx, ecx
+77B888EC	mov Dword ptr DS:[eax],ecx
+77B888EE	mov Dword ptr DS:[eax+04h],ecx
+77B888F1	test Dword ptr DS:[edi+40h],08000000
+77B888F8	jz 77B88907
+77B88907	mov eax, Dword ptr FS:[00000030] 
+77B8890D	mov eax,Dword ptr DS:[eax+68h]
+77B88910	mov Dword ptr SS:[ebp+FFFFFEC4],eax
+77B88916	test eax, 00000800
+77B8891B	jz 77B8897C
+77B8897C	mov esi,Dword ptr SS:[ebp-64h]
+77B8897F	cmp Dword ptr DS:[edi+4Ch],00h
+77B88983	jz 77B88C4A
+77B88989	mov al,byte ptr DS:[esi+01h]
+77B8898C	mov ecx,Dword ptr SS:[ebp-2Ch]
+77B8898F	xor al,byte ptr DS:[ecx]
+77B88991	xor al,byte ptr DS:[esi]
+77B88993	mov byte ptr DS:[ebx],al
+77B88995	mov eax,Dword ptr DS:[edi+50h]
+77B88998	xor Dword ptr DS:[esi],eax
+77B8899A	jmp 77B88C4A
+77B88C4A	mov Dword ptr SS:[ebp-04h],FFFFFFFE
+77B88C51	call 77B88C72
+77B88C72	cmp Byte ptr SS:[ebp-2Dh],00h
+77B88C76	jz 77B88C96
+77B88C96	ret
+77B88C56	call 77B83C40
+77B83C40	mov eax, Dword ptr FS:[00000030] 
+77B83C46	mov eax,Dword ptr DS:[eax+50h]
+77B83C49	test eax, eax
+77B83C4B	jnz 77B83C4E
+77B83C4D	ret
+77B88C5B	test eax, eax
+77B88C5D	jz 77B88C97
+77B88C97	mov eax, 7FFE0388
+77B88C9C	cmp Byte ptr DS:[eax],00h
+77B88C9F	jz 77B88CC0
+77B88CC0	mov eax,Dword ptr SS:[ebp-54h]
+77B88CC3	mov ecx,Dword ptr SS:[ebp-10h]
+77B88CC6	mov Dword ptr FS:[00000000],ecx 
+77B88CCD	pop ecx
+77B88CCE	pop edi
+77B88CCF	pop esi
+77B88CD0	pop ebx
+77B88CD1	mov esp, ebp
+77B88CD3	pop ebp
+77B88CD4	ret 0010
+77B86E2C	mov edi, eax
+77B86E2E	test edi, edi
+77B86E30	jz 77B86E7B
+77B86E32	mov ecx,Dword ptr SS:[ebp-18h]
+77B86E35	mov edx,Dword ptr SS:[ebp-3Ch]
+77B86E38	test edx, edx
+77B86E3A	jz 77B86EB8
+77B86EB8	mov esi,Dword ptr SS:[ebp-0Ch]
+77B86EBB	mov ecx,Dword ptr SS:[ebp-1Ch]
+77B86EBE	mov eax, Dword ptr FS:[00000030] 
+77B86EC4	mov eax,Dword ptr DS:[eax+50h]
+77B86EC7	test eax, eax
+77B86EC9	jz 77B86EE5
+77B86EE5	mov eax, 7FFE0380
+77B86EEA	cmp Byte ptr DS:[eax],00h
+77B86EED	jz 77B86F86
+77B86F86	mov esi,Dword ptr SS:[ebp-0Ch]
+77B86F89	mov eax, Dword ptr DS:[77C66834]
+77B86F8E	test al, 01
+77B86F90	jz 77B86FCD
+77B86FCD	mov eax, edi
+77B86FCF	pop edi
+77B86FD0	pop esi
+77B86FD1	mov esp, ebp
+77B86FD3	pop ebp
+77B86FD4	mov esp, ebx
+77B86FD6	pop ebx
+77B86FD7	ret 0008
+77B85DCE	pop esi
+77B85DCF	mov esp, ebp
+77B85DD1	pop ebp
+77B85DD2	ret 000C
+77C1F186	mov edi, eax
+77C1F188	mov Dword ptr SS:[ebp-24h],edi
+77C1F18B	mov dl, 01
+77C1F18D	mov ecx, esi
+77C1F18F	call 77C20D24
+77C20D24	mov edi, edi
+77C20D26	push ebp
+77C20D27	mov ebp, esp
+77C20D29	push ecx
+77C20D2A	cmp Byte ptr DS:[77C66D70],00h
+77C20D31	push ebx
+77C20D32	push esi
+77C20D33	push edi
+77C20D34	mov esi, ecx
+77C20D36	jz 77C20E66
+77C20E66	mov al, 01
+77C20E68	pop edi
+77C20E69	pop esi
+77C20E6A	pop ebx
+77C20E6B	leave
+77C20E6C	ret
+77C1F194	test edi, edi
+77C1F196	jz 77C1F3D5
+77C1F19C	add edi, -08
+77C1F19F	cmp Byte ptr DS:[edi+07h],05h
+77C1F1A3	jnz 77C1F1AE
+77C1F1AE	mov ecx, edi
+77C1F1B0	mov Dword ptr SS:[ebp-38h],edi
+77C1F1B3	cmp Dword ptr DS:[esi+4Ch],ebx
+77C1F1B6	jz 77C1F1D4
+77C1F1B8	mov eax,Dword ptr DS:[esi+50h]
+77C1F1BB	xor Dword ptr DS:[edi],eax
+77C1F1BD	mov al,byte ptr DS:[ecx+02h]
+77C1F1C0	xor al,byte ptr DS:[ecx+01h]
+77C1F1C3	xor al,byte ptr DS:[ecx]
+77C1F1C5	cmp byte ptr DS:[edi+03h],al
+77C1F1C8	jz 77C1F1D4
+77C1F1D4	test Byte ptr DS:[edi+02h],02
+77C1F1D8	jz 77C1F208
+77C1F1DA	mov ecx, edi
+77C1F1DC	call 77BA3AE9
+77BA3AE9	cmp Byte ptr DS:[ecx+07h],04h
+77BA3AED	jz 77BA3AF7
+77BA3AEF	movzx eax,Word ptr DS:[ecx]
+77BA3AF2	dec eax
+77BA3AF3	lea eax,Dword ptr DS:[eax*8+ecx]
+77BA3AF6	ret
+77C1F1E1	mov Dword ptr SS:[ebp-28h],eax
+77C1F1E4	xor ecx, ecx
+77C1F1E6	test Dword ptr DS:[esi+40h],08000000
+77C1F1ED	jz 77C1F1FF
+77C1F1FF	mov Word ptr DS:[eax],cx 
+77C1F202	movzx eax,Word ptr DS:[eax+02]
+77C1F206	jmp 77C1F211
+77C1F211	mov Dword ptr SS:[ebp-2Ch],eax
+77C1F214	mov Word ptr SS:[ebp-20h],ax 
+77C1F218	cmp Dword ptr DS:[esi+4Ch],ebx
+77C1F21B	jz 77C1F22F
+77C1F21D	mov ecx, edi
+77C1F21F	mov al,byte ptr DS:[ecx+02h]
+77C1F222	xor al,byte ptr DS:[ecx+01h]
+77C1F225	xor al,byte ptr DS:[ecx]
+77C1F227	mov byte ptr DS:[edi+03h],al
+77C1F22A	mov eax,Dword ptr DS:[esi+50h]
+77C1F22D	xor Dword ptr DS:[edi],eax
+77C1F22F	test Dword ptr DS:[esi+40h],20000000
+77C1F236	jz 77C1F241
+77C1F241	mov eax,Dword ptr SS:[ebp-24h]
+77C1F244	cmp eax,Dword ptr DS:[77C647C0]
+77C1F24A	mov eax, Dword ptr FS:[00000030] 
+77C1F250	jnz 77C1F2BE
+77C1F2BE	mov eax,Dword ptr DS:[eax+68h]
+77C1F2C1	mov Dword ptr SS:[ebp-44h],eax
+77C1F2C4	test eax, 00000800
+77C1F2C9	jz 77C1F3D5
+77C1F3D5	mov Dword ptr SS:[ebp-04h],ebx
+77C1F3D8	mov Dword ptr SS:[ebp-04h],FFFFFFFE
+77C1F3DF	call 77C1F3F9
+77C1F3F9	cmp Byte ptr SS:[ebp-19h],00h
+77C1F3FD	jz 77C1F40D
+77C1F3FF	mov eax,Dword ptr SS:[ebp-3Ch]
+77C1F402	push Dword ptr DS:[eax+000000C8]
+77C1F408	call 77B7E740
+77B7E740	mov edi, edi
+77B7E742	push ebp
+77B7E743	mov ebp, esp
+77B7E745	sub esp, 10
+77B7E748	push ebx
+77B7E749	push esi
+77B7E74A	mov esi,Dword ptr SS:[ebp+08h]
+77B7E74D	push edi
+77B7E74E	add Dword ptr DS:[esi+08h],-01h
+77B7E752	jnz 77B7E771
+77B7E754	mov Dword ptr DS:[esi+0Ch],00000000
+77B7E75B	lea edi,Dword ptr DS:[esi+04h]
+77B7E75E	or ecx, -01
+77B7E761	mov eax, FFFFFFFE
+77B7E766	lock cmpxchg Dword ptr DS:[edi],ecx 
+77B7E76A	mov ebx, eax
+77B7E76C	cmp ebx, -02
+77B7E76F	jnz 77B7E77C
+77B7E771	pop edi
+77B7E772	pop esi
+77B7E773	xor eax, eax
+77B7E775	pop ebx
+77B7E776	mov esp, ebp
+77B7E778	pop ebp
+77B7E779	ret 0004
+77C1F40D	ret
+77C1F3E4	mov eax,Dword ptr SS:[ebp-24h]
+77C1F3E7	mov ecx,Dword ptr SS:[ebp-10h]
+77C1F3EA	mov Dword ptr FS:[00000000],ecx 
+77C1F3F1	pop ecx
+77C1F3F2	pop edi
+77C1F3F3	pop esi
+77C1F3F4	pop ebx
+77C1F3F5	leave
+77C1F3F6	ret 0004
+77B870D0	mov ecx,Dword ptr SS:[ebp-10h]
+77B870D3	mov Dword ptr FS:[00000000],ecx 
+77B870DA	pop ecx
+77B870DB	pop edi
+77B870DC	pop esi
+77B870DD	pop ebx
+77B870DE	mov esp, ebp
+77B870E0	pop ebp
+77B870E1	ret 0010
+77B86E2C	mov edi, eax
+77B86E2E	test edi, edi
+77B86E30	jz 77B86E7B
+77B86E32	mov ecx,Dword ptr SS:[ebp-18h]
+77B86E35	mov edx,Dword ptr SS:[ebp-3Ch]
+77B86E38	test edx, edx
+77B86E3A	jz 77B86EB8
+77B86EB8	mov esi,Dword ptr SS:[ebp-0Ch]
+77B86EBB	mov ecx,Dword ptr SS:[ebp-1Ch]
+77B86EBE	mov eax, Dword ptr FS:[00000030] 
+77B86EC4	mov eax,Dword ptr DS:[eax+50h]
+77B86EC7	test eax, eax
+77B86EC9	jz 77B86EE5
+77B86EE5	mov eax, 7FFE0380
+77B86EEA	cmp Byte ptr DS:[eax],00h
+77B86EED	jz 77B86F86
+77B86F86	mov esi,Dword ptr SS:[ebp-0Ch]
+77B86F89	mov eax, Dword ptr DS:[77C66834]
+77B86F8E	test al, 01
+77B86F90	jz 77B86FCD
+77B86FCD	mov eax, edi
+77B86FCF	pop edi
+77B86FD0	pop esi
+77B86FD1	mov esp, ebp
+77B86FD3	pop ebp
+77B86FD4	mov esp, ebx
+77B86FD6	pop ebx
+77B86FD7	ret 0008
+77B85DCE	pop esi
+77B85DCF	mov esp, ebp
+77B85DD1	pop ebp
+77B85DD2	ret 000C
+779B15E3	mov Dword ptr DS:[ebx],eax
+779B15E5	test eax, eax
+779B15E7	jz 779B162A
+779B15E9	mov eax, Dword ptr DS:[77A335A8]
+779B15EE	mov cx,Word ptr SS:[ebp+08h] 
+779B15F2	cmp cx,Word ptr DS:[eax] 
+779B15F5	jz 779B1600
+779B15F7	test cx, cx 
+779B15FA	jnz 779D99E3
+779B1600	push esi
+779B1601	push Dword ptr SS:[ebp+0Ch]
+779B1604	lea eax,Dword ptr SS:[ebp-04h]
+779B1607	push eax
+779B1608	lea eax,Dword ptr DS:[edi+edi]
+779B160B	push eax
+779B160C	push Dword ptr DS:[ebx]
+779B160E	call Dword ptr DS:[77A33728]
+77BA1E80	mov edi, edi
+77BA1E82	push ebp
+77BA1E83	mov ebp, esp
+77BA1E85	movzx eax,Byte ptr DS:[77C63921]
+77BA1E8C	sub esp, 0C
+77BA1E8F	test eax, eax
+77BA1E91	jnz 77BE1CD0
+77BA1E97	mov edx,Dword ptr SS:[ebp+0Ch]
+77BA1E9A	push ebx
+77BA1E9B	push esi
+77BA1E9C	shr edx, 1
+77BA1E9E	push edi
+77BA1E9F	cmp byte ptr DS:[77C66930],al
+77BA1EA5	jnz 77BE1CFF
+77BE1CFF	mov esi,Dword ptr SS:[ebp+08h]
+77BE1D02	mov ecx, esi
+77BE1D04	mov Dword ptr SS:[ebp-04h],ecx
+77BE1D07	test edx, edx
+77BE1D09	jz 77BE1D6F
+77BE1D0B	mov edi,Dword ptr SS:[ebp+18h]
+77BE1D0E	mov ebx,Dword ptr SS:[ebp+14h]
+77BE1D11	test edi, edi
+77BE1D13	jz 77BE1D6C
+77BE1D15	movzx ecx,Byte ptr DS:[ebx]
+77BE1D18	dec edx
+77BE1D19	add ecx, ecx
+77BE1D1B	dec edi
+77BE1D1C	mov Dword ptr SS:[ebp-08h],ecx
+77BE1D1F	movzx eax,Word ptr DS:[ecx+77C64B00]
+77BE1D26	mov ecx, eax
+77BE1D28	mov Dword ptr SS:[ebp-0Ch],ecx
+77BE1D2B	mov ecx,Dword ptr SS:[ebp-08h]
+77BE1D2E	test ax, ax 
+77BE1D31	jz 77BE1D4C
+77BE1D4C	mov eax, Dword ptr DS:[77C66920]
+77BE1D51	movzx ecx,Word ptr DS:[eax+ecx]
+77BE1D55	inc ebx
+77BE1D56	mov Word ptr DS:[esi],cx 
+77BE1D59	lea eax,Dword ptr DS:[esi+02h]
+77BE1D5C	mov esi, eax
+77BE1D5E	test edx, edx
+77BE1D60	jnz 77BE1D11
+77BE1D11	test edi, edi
+77BE1D13	jz 77BE1D6C
+77BE1D15	movzx ecx,Byte ptr DS:[ebx]
+77BE1D18	dec edx
+77BE1D19	add ecx, ecx
+77BE1D1B	dec edi
+77BE1D1C	mov Dword ptr SS:[ebp-08h],ecx
+77BE1D1F	movzx eax,Word ptr DS:[ecx+77C64B00]
+77BE1D26	mov ecx, eax
+77BE1D28	mov Dword ptr SS:[ebp-0Ch],ecx
+77BE1D2B	mov ecx,Dword ptr SS:[ebp-08h]
+77BE1D2E	test ax, ax 
+77BE1D31	jz 77BE1D4C
+77BE1D4C	mov eax, Dword ptr DS:[77C66920]
+77BE1D51	movzx ecx,Word ptr DS:[eax+ecx]
+77BE1D55	inc ebx
+77BE1D56	mov Word ptr DS:[esi],cx 
+77BE1D59	lea eax,Dword ptr DS:[esi+02h]
+77BE1D5C	mov esi, eax
+77BE1D5E	test edx, edx
+77BE1D60	jnz 77BE1D11
+77BE1D11	test edi, edi
+77BE1D13	jz 77BE1D6C
+77BE1D15	movzx ecx,Byte ptr DS:[ebx]
+77BE1D18	dec edx
+77BE1D19	add ecx, ecx
+77BE1D1B	dec edi
+77BE1D1C	mov Dword ptr SS:[ebp-08h],ecx
+77BE1D1F	movzx eax,Word ptr DS:[ecx+77C64B00]
+77BE1D26	mov ecx, eax
+77BE1D28	mov Dword ptr SS:[ebp-0Ch],ecx
+77BE1D2B	mov ecx,Dword ptr SS:[ebp-08h]
+77BE1D2E	test ax, ax 
+77BE1D31	jz 77BE1D4C
+77BE1D4C	mov eax, Dword ptr DS:[77C66920]
+77BE1D51	movzx ecx,Word ptr DS:[eax+ecx]
+77BE1D55	inc ebx
+77BE1D56	mov Word ptr DS:[esi],cx 
+77BE1D59	lea eax,Dword ptr DS:[esi+02h]
+77BE1D5C	mov esi, eax
+77BE1D5E	test edx, edx
+77BE1D60	jnz 77BE1D11
+77BE1D11	test edi, edi
+77BE1D13	jz 77BE1D6C
+77BE1D15	movzx ecx,Byte ptr DS:[ebx]
+77BE1D18	dec edx
+77BE1D19	add ecx, ecx
+77BE1D1B	dec edi
+77BE1D1C	mov Dword ptr SS:[ebp-08h],ecx
+77BE1D1F	movzx eax,Word ptr DS:[ecx+77C64B00]
+77BE1D26	mov ecx, eax
+77BE1D28	mov Dword ptr SS:[ebp-0Ch],ecx
+77BE1D2B	mov ecx,Dword ptr SS:[ebp-08h]
+77BE1D2E	test ax, ax 
+77BE1D31	jz 77BE1D4C
+77BE1D4C	mov eax, Dword ptr DS:[77C66920]
+77BE1D51	movzx ecx,Word ptr DS:[eax+ecx]
+77BE1D55	inc ebx
+77BE1D56	mov Word ptr DS:[esi],cx 
+77BE1D59	lea eax,Dword ptr DS:[esi+02h]
+77BE1D5C	mov esi, eax
+77BE1D5E	test edx, edx
+77BE1D60	jnz 77BE1D11
+77BE1D11	test edi, edi
+77BE1D13	jz 77BE1D6C
+77BE1D15	movzx ecx,Byte ptr DS:[ebx]
+77BE1D18	dec edx
+77BE1D19	add ecx, ecx
+77BE1D1B	dec edi
+77BE1D1C	mov Dword ptr SS:[ebp-08h],ecx
+77BE1D1F	movzx eax,Word ptr DS:[ecx+77C64B00]
+77BE1D26	mov ecx, eax
+77BE1D28	mov Dword ptr SS:[ebp-0Ch],ecx
+77BE1D2B	mov ecx,Dword ptr SS:[ebp-08h]
+77BE1D2E	test ax, ax 
+77BE1D31	jz 77BE1D4C
+77BE1D4C	mov eax, Dword ptr DS:[77C66920]
+77BE1D51	movzx ecx,Word ptr DS:[eax+ecx]
+77BE1D55	inc ebx
+77BE1D56	mov Word ptr DS:[esi],cx 
+77BE1D59	lea eax,Dword ptr DS:[esi+02h]
+77BE1D5C	mov esi, eax
+77BE1D5E	test edx, edx
+77BE1D60	jnz 77BE1D11
+77BE1D11	test edi, edi
+77BE1D13	jz 77BE1D6C
+77BE1D15	movzx ecx,Byte ptr DS:[ebx]
+77BE1D18	dec edx
+77BE1D19	add ecx, ecx
+77BE1D1B	dec edi
+77BE1D1C	mov Dword ptr SS:[ebp-08h],ecx
+77BE1D1F	movzx eax,Word ptr DS:[ecx+77C64B00]
+77BE1D26	mov ecx, eax
+77BE1D28	mov Dword ptr SS:[ebp-0Ch],ecx
+77BE1D2B	mov ecx,Dword ptr SS:[ebp-08h]
+77BE1D2E	test ax, ax 
+77BE1D31	jz 77BE1D4C
+77BE1D4C	mov eax, Dword ptr DS:[77C66920]
+77BE1D51	movzx ecx,Word ptr DS:[eax+ecx]
+77BE1D55	inc ebx
+77BE1D56	mov Word ptr DS:[esi],cx 
+77BE1D59	lea eax,Dword ptr DS:[esi+02h]
+77BE1D5C	mov esi, eax
+77BE1D5E	test edx, edx
+77BE1D60	jnz 77BE1D11
+77BE1D11	test edi, edi
+77BE1D13	jz 77BE1D6C
+77BE1D15	movzx ecx,Byte ptr DS:[ebx]
+77BE1D18	dec edx
+77BE1D19	add ecx, ecx
+77BE1D1B	dec edi
+77BE1D1C	mov Dword ptr SS:[ebp-08h],ecx
+77BE1D1F	movzx eax,Word ptr DS:[ecx+77C64B00]
+77BE1D26	mov ecx, eax
+77BE1D28	mov Dword ptr SS:[ebp-0Ch],ecx
+77BE1D2B	mov ecx,Dword ptr SS:[ebp-08h]
+77BE1D2E	test ax, ax 
+77BE1D31	jz 77BE1D4C
+77BE1D4C	mov eax, Dword ptr DS:[77C66920]
+77BE1D51	movzx ecx,Word ptr DS:[eax+ecx]
+77BE1D55	inc ebx
+77BE1D56	mov Word ptr DS:[esi],cx 
+77BE1D59	lea eax,Dword ptr DS:[esi+02h]
+77BE1D5C	mov esi, eax
+77BE1D5E	test edx, edx
+77BE1D60	jnz 77BE1D11
+77BE1D11	test edi, edi
+77BE1D13	jz 77BE1D6C
+77BE1D15	movzx ecx,Byte ptr DS:[ebx]
+77BE1D18	dec edx
+77BE1D19	add ecx, ecx
+77BE1D1B	dec edi
+77BE1D1C	mov Dword ptr SS:[ebp-08h],ecx
+77BE1D1F	movzx eax,Word ptr DS:[ecx+77C64B00]
+77BE1D26	mov ecx, eax
+77BE1D28	mov Dword ptr SS:[ebp-0Ch],ecx
+77BE1D2B	mov ecx,Dword ptr SS:[ebp-08h]
+77BE1D2E	test ax, ax 
+77BE1D31	jz 77BE1D4C
+77BE1D4C	mov eax, Dword ptr DS:[77C66920]
+77BE1D51	movzx ecx,Word ptr DS:[eax+ecx]
+77BE1D55	inc ebx
+77BE1D56	mov Word ptr DS:[esi],cx 
+77BE1D59	lea eax,Dword ptr DS:[esi+02h]
+77BE1D5C	mov esi, eax
+77BE1D5E	test edx, edx
+77BE1D60	jnz 77BE1D11
+77BE1D11	test edi, edi
+77BE1D13	jz 77BE1D6C
+77BE1D15	movzx ecx,Byte ptr DS:[ebx]
+77BE1D18	dec edx
+77BE1D19	add ecx, ecx
+77BE1D1B	dec edi
+77BE1D1C	mov Dword ptr SS:[ebp-08h],ecx
+77BE1D1F	movzx eax,Word ptr DS:[ecx+77C64B00]
+77BE1D26	mov ecx, eax
+77BE1D28	mov Dword ptr SS:[ebp-0Ch],ecx
+77BE1D2B	mov ecx,Dword ptr SS:[ebp-08h]
+77BE1D2E	test ax, ax 
+77BE1D31	jz 77BE1D4C
+77BE1D4C	mov eax, Dword ptr DS:[77C66920]
+77BE1D51	movzx ecx,Word ptr DS:[eax+ecx]
+77BE1D55	inc ebx
+77BE1D56	mov Word ptr DS:[esi],cx 
+77BE1D59	lea eax,Dword ptr DS:[esi+02h]
+77BE1D5C	mov esi, eax
+77BE1D5E	test edx, edx
+77BE1D60	jnz 77BE1D11
+77BE1D11	test edi, edi
+77BE1D13	jz 77BE1D6C
+77BE1D15	movzx ecx,Byte ptr DS:[ebx]
+77BE1D18	dec edx
+77BE1D19	add ecx, ecx
+77BE1D1B	dec edi
+77BE1D1C	mov Dword ptr SS:[ebp-08h],ecx
+77BE1D1F	movzx eax,Word ptr DS:[ecx+77C64B00]
+77BE1D26	mov ecx, eax
+77BE1D28	mov Dword ptr SS:[ebp-0Ch],ecx
+77BE1D2B	mov ecx,Dword ptr SS:[ebp-08h]
+77BE1D2E	test ax, ax 
+77BE1D31	jz 77BE1D4C
+77BE1D4C	mov eax, Dword ptr DS:[77C66920]
+77BE1D51	movzx ecx,Word ptr DS:[eax+ecx]
+77BE1D55	inc ebx
+77BE1D56	mov Word ptr DS:[esi],cx 
+77BE1D59	lea eax,Dword ptr DS:[esi+02h]
+77BE1D5C	mov esi, eax
+77BE1D5E	test edx, edx
+77BE1D60	jnz 77BE1D11
+77BE1D11	test edi, edi
+77BE1D13	jz 77BE1D6C
+77BE1D15	movzx ecx,Byte ptr DS:[ebx]
+77BE1D18	dec edx
+77BE1D19	add ecx, ecx
+77BE1D1B	dec edi
+77BE1D1C	mov Dword ptr SS:[ebp-08h],ecx
+77BE1D1F	movzx eax,Word ptr DS:[ecx+77C64B00]
+77BE1D26	mov ecx, eax
+77BE1D28	mov Dword ptr SS:[ebp-0Ch],ecx
+77BE1D2B	mov ecx,Dword ptr SS:[ebp-08h]
+77BE1D2E	test ax, ax 
+77BE1D31	jz 77BE1D4C
+77BE1D4C	mov eax, Dword ptr DS:[77C66920]
+77BE1D51	movzx ecx,Word ptr DS:[eax+ecx]
+77BE1D55	inc ebx
+77BE1D56	mov Word ptr DS:[esi],cx 
+77BE1D59	lea eax,Dword ptr DS:[esi+02h]
+77BE1D5C	mov esi, eax
+77BE1D5E	test edx, edx
+77BE1D60	jnz 77BE1D11
+77BE1D11	test edi, edi
+77BE1D13	jz 77BE1D6C
+77BE1D15	movzx ecx,Byte ptr DS:[ebx]
+77BE1D18	dec edx
+77BE1D19	add ecx, ecx
+77BE1D1B	dec edi
+77BE1D1C	mov Dword ptr SS:[ebp-08h],ecx
+77BE1D1F	movzx eax,Word ptr DS:[ecx+77C64B00]
+77BE1D26	mov ecx, eax
+77BE1D28	mov Dword ptr SS:[ebp-0Ch],ecx
+77BE1D2B	mov ecx,Dword ptr SS:[ebp-08h]
+77BE1D2E	test ax, ax 
+77BE1D31	jz 77BE1D4C
+77BE1D4C	mov eax, Dword ptr DS:[77C66920]
+77BE1D51	movzx ecx,Word ptr DS:[eax+ecx]
+77BE1D55	inc ebx
+77BE1D56	mov Word ptr DS:[esi],cx 
+77BE1D59	lea eax,Dword ptr DS:[esi+02h]
+77BE1D5C	mov esi, eax
+77BE1D5E	test edx, edx
+77BE1D60	jnz 77BE1D11
+77BE1D11	test edi, edi
+77BE1D13	jz 77BE1D6C
+77BE1D15	movzx ecx,Byte ptr DS:[ebx]
+77BE1D18	dec edx
+77BE1D19	add ecx, ecx
+77BE1D1B	dec edi
+77BE1D1C	mov Dword ptr SS:[ebp-08h],ecx
+77BE1D1F	movzx eax,Word ptr DS:[ecx+77C64B00]
+77BE1D26	mov ecx, eax
+77BE1D28	mov Dword ptr SS:[ebp-0Ch],ecx
+77BE1D2B	mov ecx,Dword ptr SS:[ebp-08h]
+77BE1D2E	test ax, ax 
+77BE1D31	jz 77BE1D4C
+77BE1D4C	mov eax, Dword ptr DS:[77C66920]
+77BE1D51	movzx ecx,Word ptr DS:[eax+ecx]
+77BE1D55	inc ebx
+77BE1D56	mov Word ptr DS:[esi],cx 
+77BE1D59	lea eax,Dword ptr DS:[esi+02h]
+77BE1D5C	mov esi, eax
+77BE1D5E	test edx, edx
+77BE1D60	jnz 77BE1D11
+77BE1D62	jmp 77BE1D6C
+77BE1D6C	mov ecx,Dword ptr SS:[ebp-04h]
+77BE1D6F	mov eax,Dword ptr SS:[ebp+10h]
+77BE1D72	test eax, eax
+77BE1D74	jz 77BA1EDD
+77BE1D7A	sub esi, ecx
+77BE1D7C	mov Dword ptr DS:[eax],esi
+77BE1D7E	jmp 77BA1EDD
+77BA1EDD	pop edi
+77BA1EDE	pop esi
+77BA1EDF	pop ebx
+77BA1EE0	xor eax, eax
+77BA1EE2	leave
+77BA1EE3	ret 0014
+779B1614	test eax, eax
+779B1616	js 779D9A17
+779B161C	mov eax,Dword ptr SS:[ebp-04h]
+779B161F	shr eax, 1
+779B1621	pop edi
+779B1622	pop esi
+779B1623	pop ebx
+779B1624	leave
+779B1625	ret 0018
+77A0F00E	test eax, eax
+77A0F010	jnz 77A0F019
+77A0F019	mov edi,Dword ptr SS:[ebp-04h]
+77A0F01C	cmp Dword ptr SS:[ebp+10h],ebx
+77A0F01F	jz 77A0F04B
+77A0F021	push 01
+77A0F023	push -01
+77A0F025	lea eax,Dword ptr SS:[ebp-08h]
+77A0F028	push eax
+77A0F029	push -01
+77A0F02B	push Dword ptr SS:[ebp+10h]
+77A0F02E	push ebx
+77A0F02F	call 779B1570
+779B1570	mov edi, edi
+779B1572	push ebp
+779B1573	mov ebp, esp
+779B1575	push ecx
+779B1576	push ebx
+779B1577	push esi
+779B1578	mov esi,Dword ptr SS:[ebp+10h]
+779B157B	push edi
+779B157C	test esi, esi
+779B157E	jz 779B162A
+779B1584	mov edi,Dword ptr SS:[ebp+18h]
+779B1587	test edi, edi
+779B1589	jz 779B162A
+779B158F	cmp Dword ptr SS:[ebp+0Ch],00h
+779B1593	jz 779B162A
+779B1599	test esi, esi
+779B159B	jns 779B15BC
+779B159D	cmp esi, -02
+779B15A0	jl 779B162A
+779B15A6	mov ecx,Dword ptr SS:[ebp+0Ch]
+779B15A9	lea edx,Dword ptr DS:[ecx+01h]
+779B15AC	mov al,byte ptr DS:[ecx]
+779B15AE	inc ecx
+779B15AF	test al, al
+779B15B1	jnz 779B15AC
+779B15AC	mov al,byte ptr DS:[ecx]
+779B15AE	inc ecx
+779B15AF	test al, al
+779B15B1	jnz 779B15AC
+779B15AC	mov al,byte ptr DS:[ecx]
+779B15AE	inc ecx
+779B15AF	test al, al
+779B15B1	jnz 779B15AC
+779B15AC	mov al,byte ptr DS:[ecx]
+779B15AE	inc ecx
+779B15AF	test al, al
+779B15B1	jnz 779B15AC
+779B15AC	mov al,byte ptr DS:[ecx]
+779B15AE	inc ecx
+779B15AF	test al, al
+779B15B1	jnz 779B15AC
+779B15AC	mov al,byte ptr DS:[ecx]
+779B15AE	inc ecx
+779B15AF	test al, al
+779B15B1	jnz 779B15AC
+779B15B3	sub ecx, edx
+779B15B5	add esi, 02
+779B15B8	add esi, ecx
+779B15BA	jz 779B162A
+779B15BC	mov eax,Dword ptr SS:[ebp+1Ch]
+779B15BF	cmp edi, -01
+779B15C2	jnz 779B1628
+779B15C4	test eax, eax
+779B15C6	jz 779B162A
+779B15C8	mov edi, esi
+779B15CA	mov ebx,Dword ptr SS:[ebp+14h]
+779B15CD	test eax, eax
+779B15CF	jz 779B15E9
+779B15D1	lea eax,Dword ptr DS:[edi+edi]
+779B15D4	push eax
+779B15D5	push 08
+779B15D7	push Dword ptr DS:[77A319F0]
+779B15DD	call Dword ptr DS:[77A33760]
+77B85D90	mov edi, edi
+77B85D92	push ebp
+77B85D93	mov ebp, esp
+77B85D95	and esp, -08
+77B85D98	push ecx
+77B85D99	push esi
+77B85D9A	mov esi,Dword ptr SS:[ebp+08h]
+77B85D9D	test esi, esi
+77B85D9F	jz 77BC90B5
+77B85DA5	cmp Dword ptr DS:[esi+08h],DDEEDDEE
+77B85DAC	mov ecx, esi
+77B85DAE	mov edx,Dword ptr SS:[ebp+10h]
+77B85DB1	jz 77BC90CC
+77B85DB7	test Byte ptr DS:[77C66938],38
+77B85DBE	jnz 77BC90D9
+77B85DC4	push 00
+77B85DC6	push Dword ptr SS:[ebp+0Ch]
+77B85DC9	call 77B85DE0
+77B85DE0	mov edi, edi
+77B85DE2	push ebx
+77B85DE3	mov ebx, esp
+77B85DE5	sub esp, 08
+77B85DE8	and esp, -08
+77B85DEB	add esp, 04
+77B85DEE	push ebp
+77B85DEF	mov ebp,Dword ptr DS:[ebx+04h]
+77B85DF2	mov Dword ptr SS:[esp+04h],ebp
+77B85DF6	mov ebp, esp
+77B85DF8	sub esp, 74
+77B85DFB	push esi
+77B85DFC	push edi
+77B85DFD	mov edi, ecx
+77B85DFF	mov esi, edx
+77B85E01	mov ecx,Dword ptr DS:[ebx+08h]
+77B85E04	mov Dword ptr SS:[ebp-18h],esi
+77B85E07	mov Dword ptr SS:[ebp-0Ch],edi
+77B85E0A	cmp Dword ptr DS:[edi+08h],DDEEDDEE
+77B85E11	jnz 77B85EF3
+77B85EF3	xor eax, eax
+77B85EF5	mov Dword ptr SS:[ebp-30h],00000000
+77B85EFC	mov Dword ptr SS:[ebp-4Ch],eax
+77B85EFF	mov eax,Dword ptr DS:[edi+44h]
+77B85F02	or ecx, eax
+77B85F04	mov Dword ptr SS:[ebp-1Ch],ecx
+77B85F07	mov Dword ptr SS:[ebp-38h],00000000
+77B85F0E	cmp esi, 7FFFFFFF
+77B85F14	jbe 77B85F22
+77B85F22	and eax, 01000000
+77B85F27	jnz 77B85F75
+77B85F29	cmp Dword ptr DS:[77C6373C],eax
+77B85F2F	jnz 77B85F75
+77B85F31	mov edx,Dword ptr DS:[edi+000000DC]
+77B85F37	mov ecx, edx
+77B85F39	test ecx, ecx
+77B85F3B	jnz 77B85F47
+77B85F3D	mov ecx,Dword ptr DS:[77C64334]
+77B85F43	test ecx, ecx
+77B85F45	jz 77B85F72
+77B85F72	mov ecx,Dword ptr SS:[ebp-1Ch]
+77B85F75	mov edx,Dword ptr DS:[edi+58h]
+77B85F78	mov Dword ptr SS:[ebp-3Ch],edx
+77B85F7B	test edx, edx
+77B85F7D	jz 77B85FC5
+77B85FC5	mov eax, esi
+77B85FC7	test esi, esi
+77B85FC9	jnz 77B85FD0
+77B85FD0	add eax, 0F
+77B85FD3	and eax, -08
+77B85FD6	mov edx, eax
+77B85FD8	mov Dword ptr SS:[ebp-4Ch],eax
+77B85FDB	shr edx, 03
+77B85FDE	test Dword ptr SS:[ebp-1Ch],7D810F61
+77B85FE5	mov Dword ptr SS:[ebp-28h],edx
+77B85FE8	jnz 77B86E13
+77B86E13	xor eax, eax
+77B86E15	mov edx,Dword ptr SS:[ebp-1Ch]
+77B86E18	lea ecx,Dword ptr SS:[ebp-30h]
+77B86E1B	push ecx
+77B86E1C	push eax
+77B86E1D	mov eax,Dword ptr SS:[ebp-4Ch]
+77B86E20	or edx, 02
+77B86E23	push eax
+77B86E24	push esi
+77B86E25	mov ecx, edi
+77B86E27	call 77B86FE0
+77B86FE0	mov edi, edi
+77B86FE2	push ebp
+77B86FE3	mov ebp, esp
+77B86FE5	push -02
+77B86FE7	push 77C4C1C8
+77B86FEC	push 77BBAD20
+77B86FF1	mov eax, Dword ptr FS:[00000000] 
+77B86FF7	push eax
+77B86FF8	sub esp, 00000180
+77B86FFE	push ebx
+77B86FFF	push esi
+77B87000	push edi
+77B87001	mov eax, Dword ptr DS:[77C6B370]
+77B87006	xor Dword ptr SS:[ebp-08h],eax
+77B87009	xor eax, ebp
+77B8700B	push eax
+77B8700C	lea eax,Dword ptr SS:[ebp-10h]
+77B8700F	mov Dword ptr FS:[00000000], eax 
+77B87015	mov ebx, edx
+77B87017	mov Dword ptr SS:[ebp-74h],ebx
+77B8701A	mov edi, ecx
+77B8701C	mov Dword ptr SS:[ebp-78h],edi
+77B8701F	mov Dword ptr SS:[ebp+FFFFFF78],00000000
+77B87029	mov Dword ptr SS:[ebp-70h],00000001
+77B87030	mov Byte ptr SS:[ebp-2Dh],00h
+77B87034	mov Dword ptr SS:[ebp-54h],00000000
+77B8703B	mov Dword ptr SS:[ebp-40h],00000000
+77B87042	mov Dword ptr SS:[ebp+FFFFFF6C],00000000
+77B8704C	mov esi,Dword ptr SS:[ebp+0Ch]
+77B8704F	shr esi, 03
+77B87052	test ebx,7D010F60
+77B87058	jnz 77B8708C
+77B8708C	xor eax, eax
+77B8708E	mov Dword ptr SS:[ebp-70h],eax
+77B87091	mov eax,Dword ptr SS:[ebp+14h]
+77B87094	mov Dword ptr DS:[eax], 00000004
+77B8709A	mov eax,Dword ptr SS:[ebp+08h]
+77B8709D	cmp eax, 7FFFFFFF
+77B870A2	jbe 77B870BA
+77B870BA	test ebx,61000000
+77B870C0	jz 77B870E4
+77B870C2	test ebx,10000000
+77B870C8	jnz 77B870E4
+77B870CA	push eax
+77B870CB	call 77C1F0A5
+77C1F0A5	push 3C
+77C1F0A7	push 77C4D320
+77C1F0AC	call 77BC7BE4
+77BC7BE4	push 77BBAD20
+77BC7BE9	push Dword ptr FS:[00000000] 
+77BC7BF0	mov eax,Dword ptr SS:[esp+10h]
+77BC7BF4	mov Dword ptr SS:[esp+10h],ebp
+77BC7BF8	lea ebp,Dword ptr SS:[esp+10h]
+77BC7BFC	sub esp, eax
+77BC7BFE	push ebx
+77BC7BFF	push esi
+77BC7C00	push edi
+77BC7C01	mov eax, Dword ptr DS:[77C6B370]
+77BC7C06	xor Dword ptr SS:[ebp-04h],eax
+77BC7C09	xor eax, ebp
+77BC7C0B	push eax
+77BC7C0C	mov Dword ptr SS:[ebp-18h],esp
+77BC7C0F	push Dword ptr SS:[ebp-08h]
+77BC7C12	mov eax,Dword ptr SS:[ebp-04h]
+77BC7C15	mov Dword ptr SS:[ebp-04h],FFFFFFFE
+77BC7C1C	mov Dword ptr SS:[ebp-08h],eax
+77BC7C1F	lea eax,Dword ptr SS:[ebp-10h]
+77BC7C22	mov Dword ptr FS:[00000000], eax 
+77BC7C28	ret
+77C1F0B1	mov edi, edx
+77C1F0B3	mov esi, ecx
+77C1F0B5	mov Dword ptr SS:[ebp-3Ch],esi
+77C1F0B8	xor ebx, ebx
+77C1F0BA	mov byte ptr SS:[ebp-19h],bl
+77C1F0BD	mov Dword ptr SS:[ebp-24h],ebx
+77C1F0C0	test Dword ptr DS:[esi+44h],01000000
+77C1F0C7	jz 77C1F0E3
+77C1F0E3	mov Dword ptr SS:[ebp-04h],ebx
+77C1F0E6	mov Dword ptr SS:[ebp-04h],00000001
+77C1F0ED	mov edx, 77B630C0
+77C1F0F2	mov ecx, esi
+77C1F0F4	call 77B67662
+77B67662	mov edi, edi
+77B67664	push ecx
+77B67665	push esi
+77B67666	push edi
+77B67667	mov edi, ecx
+77B67669	mov esi, edx
+77B6766B	cmp Dword ptr DS:[edi+60h],EEFFEEFF
+77B67672	jnz 77BCAD89
+77B67678	mov al, 01
+77B6767A	pop edi
+77B6767B	pop esi
+77B6767C	pop ecx
+77B6767D	ret
+77C1F0F9	test al, al
+77C1F0FB	jz 77C1F3D2
+77C1F101	mov ecx,Dword ptr DS:[esi+44h]
+77C1F104	or ecx, edi
+77C1F106	mov Dword ptr SS:[ebp-2Ch],ecx
+77C1F109	mov edi, ecx
+77C1F10B	or edi, 10000100
+77C1F111	mov Dword ptr SS:[ebp-34h],edi
+77C1F114	mov edx,Dword ptr SS:[ebp+08h]
+77C1F117	test edx, edx
+77C1F119	mov Dword ptr SS:[ebp-20h],edx
+77C1F11C	jnz 77C1F125
+77C1F125	mov eax,Dword ptr DS:[esi+00000094]
+77C1F12B	add eax,Dword ptr SS:[ebp-20h]
+77C1F12E	and eax,Dword ptr DS:[esi+00000098]
+77C1F134	cmp eax, 10
+77C1F137	jnb 77C1F13C
+77C1F13C	add eax, 08
+77C1F13F	mov Dword ptr SS:[ebp-40h],eax
+77C1F142	cmp eax, edx
+77C1F144	jb 77C1F350
+77C1F14A	cmp eax,Dword ptr DS:[esi+78h]
+77C1F14D	ja 77C1F350
+77C1F153	test cl,01
+77C1F156	jnz 77C1F173
+77C1F158	push Dword ptr DS:[esi+000000C8]
+77C1F15E	call 77B7FED0
+77B7FED0	mov edi, edi
+77B7FED2	push ebp
+77B7FED3	mov ebp, esp
+77B7FED5	and esp, -08
+77B7FED8	mov ecx,Dword ptr SS:[ebp+08h]
+77B7FEDB	mov edx,Dword ptr FS:[00000018] 
+77B7FEE2	lea eax,Dword ptr DS:[ecx+04h]
+77B7FEE5	lock ??? 
+77B7FEEA	jnb 77B7FF01
+77B7FEEC	mov eax,Dword ptr DS:[edx+24h]
+77B7FEEF	mov Dword ptr DS:[ecx+0Ch],eax
+77B7FEF2	xor eax, eax
+77B7FEF4	mov Dword ptr DS:[ecx+08h],00000001
+77B7FEFB	mov esp, ebp
+77B7FEFD	pop ebp
+77B7FEFE	ret 0004
+77C1F163	mov Byte ptr SS:[ebp-19h],01h
+77C1F167	mov edi,Dword ptr SS:[ebp-2Ch]
+77C1F16A	or edi, 10000101
+77C1F170	mov Dword ptr SS:[ebp-34h],edi
+77C1F173	xor dl, dl
+77C1F175	mov ecx, esi
+77C1F177	call 77C20835
+77C20835	mov edi, edi
+77C20837	push ebp
+77C20838	mov ebp, esp
+77C2083A	sub esp, 1C
+77C2083D	push ebx
+77C2083E	push esi
+77C2083F	push edi
+77C20840	mov bl, dl
+77C20842	mov edi, ecx
+77C20844	xor esi, esi
+77C20846	mov Dword ptr SS:[ebp-10h],edi
+77C20849	xor dl, dl
+77C2084B	mov Dword ptr SS:[ebp-0Ch],esi
+77C2084E	mov Dword ptr SS:[ebp-04h],esi
+77C20851	call 77C20D24
+77C20D24	mov edi, edi
+77C20D26	push ebp
+77C20D27	mov ebp, esp
+77C20D29	push ecx
+77C20D2A	cmp Byte ptr DS:[77C66D70],00h
+77C20D31	push ebx
+77C20D32	push esi
+77C20D33	push edi
+77C20D34	mov esi, ecx
+77C20D36	jz 77C20E66
+77C20E66	mov al, 01
+77C20E68	pop edi
+77C20E69	pop esi
+77C20E6A	pop ebx
+77C20E6B	leave
+77C20E6C	ret
+77C20856	xor ecx, ecx
+77C20858	inc ecx
+77C20859	test al, al
+77C2085B	jz 77C20B74
+77C20861	test bl, bl
+77C20863	jnz 77C20872
+77C20865	test Dword ptr DS:[edi+40h],20000000
+77C2086C	jz 77C20C74
+77C20C74	mov al, cl
+77C20C76	jmp 77C20BAB
+77C20BAB	pop edi
+77C20BAC	pop esi
+77C20BAD	pop ebx
+77C20BAE	leave
+77C20BAF	ret
+77C1F17C	push Dword ptr SS:[ebp+08h]
+77C1F17F	push edi
+77C1F180	push esi
+77C1F181	call 77B85D90
+77B85D90	mov edi, edi
+77B85D92	push ebp
+77B85D93	mov ebp, esp
+77B85D95	and esp, -08
+77B85D98	push ecx
+77B85D99	push esi
+77B85D9A	mov esi,Dword ptr SS:[ebp+08h]
+77B85D9D	test esi, esi
+77B85D9F	jz 77BC90B5
+77B85DA5	cmp Dword ptr DS:[esi+08h],DDEEDDEE
+77B85DAC	mov ecx, esi
+77B85DAE	mov edx,Dword ptr SS:[ebp+10h]
+77B85DB1	jz 77BC90CC
+77B85DB7	test Byte ptr DS:[77C66938],38
+77B85DBE	jnz 77BC90D9
+77B85DC4	push 00
+77B85DC6	push Dword ptr SS:[ebp+0Ch]
+77B85DC9	call 77B85DE0
+77B85DE0	mov edi, edi
+77B85DE2	push ebx
+77B85DE3	mov ebx, esp
+77B85DE5	sub esp, 08
+77B85DE8	and esp, -08
+77B85DEB	add esp, 04
+77B85DEE	push ebp
+77B85DEF	mov ebp,Dword ptr DS:[ebx+04h]
+77B85DF2	mov Dword ptr SS:[esp+04h],ebp
+77B85DF6	mov ebp, esp
+77B85DF8	sub esp, 74
+77B85DFB	push esi
+77B85DFC	push edi
+77B85DFD	mov edi, ecx
+77B85DFF	mov esi, edx
+77B85E01	mov ecx,Dword ptr DS:[ebx+08h]
+77B85E04	mov Dword ptr SS:[ebp-18h],esi
+77B85E07	mov Dword ptr SS:[ebp-0Ch],edi
+77B85E0A	cmp Dword ptr DS:[edi+08h],DDEEDDEE
+77B85E11	jnz 77B85EF3
+77B85EF3	xor eax, eax
+77B85EF5	mov Dword ptr SS:[ebp-30h],00000000
+77B85EFC	mov Dword ptr SS:[ebp-4Ch],eax
+77B85EFF	mov eax,Dword ptr DS:[edi+44h]
+77B85F02	or ecx, eax
+77B85F04	mov Dword ptr SS:[ebp-1Ch],ecx
+77B85F07	mov Dword ptr SS:[ebp-38h],00000000
+77B85F0E	cmp esi, 7FFFFFFF
+77B85F14	jbe 77B85F22
+77B85F22	and eax, 01000000
+77B85F27	jnz 77B85F75
+77B85F29	cmp Dword ptr DS:[77C6373C],eax
+77B85F2F	jnz 77B85F75
+77B85F31	mov edx,Dword ptr DS:[edi+000000DC]
+77B85F37	mov ecx, edx
+77B85F39	test ecx, ecx
+77B85F3B	jnz 77B85F47
+77B85F3D	mov ecx,Dword ptr DS:[77C64334]
+77B85F43	test ecx, ecx
+77B85F45	jz 77B85F72
+77B85F72	mov ecx,Dword ptr SS:[ebp-1Ch]
+77B85F75	mov edx,Dword ptr DS:[edi+58h]
+77B85F78	mov Dword ptr SS:[ebp-3Ch],edx
+77B85F7B	test edx, edx
+77B85F7D	jz 77B85FC5
+77B85FC5	mov eax, esi
+77B85FC7	test esi, esi
+77B85FC9	jnz 77B85FD0
+77B85FD0	add eax, 0F
+77B85FD3	and eax, -08
+77B85FD6	mov edx, eax
+77B85FD8	mov Dword ptr SS:[ebp-4Ch],eax
+77B85FDB	shr edx, 03
+77B85FDE	test Dword ptr SS:[ebp-1Ch],7D810F61
+77B85FE5	mov Dword ptr SS:[ebp-28h],edx
+77B85FE8	jnz 77B86E13
+77B86E13	xor eax, eax
+77B86E15	mov edx,Dword ptr SS:[ebp-1Ch]
+77B86E18	lea ecx,Dword ptr SS:[ebp-30h]
+77B86E1B	push ecx
+77B86E1C	push eax
+77B86E1D	mov eax,Dword ptr SS:[ebp-4Ch]
+77B86E20	or edx, 02
+77B86E23	push eax
+77B86E24	push esi
+77B86E25	mov ecx, edi
+77B86E27	call 77B86FE0
+77B86FE0	mov edi, edi
+77B86FE2	push ebp
+77B86FE3	mov ebp, esp
+77B86FE5	push -02
+77B86FE7	push 77C4C1C8
+77B86FEC	push 77BBAD20
+77B86FF1	mov eax, Dword ptr FS:[00000000] 
+77B86FF7	push eax
+77B86FF8	sub esp, 00000180
+77B86FFE	push ebx
+77B86FFF	push esi
+77B87000	push edi
+77B87001	mov eax, Dword ptr DS:[77C6B370]
+77B87006	xor Dword ptr SS:[ebp-08h],eax
+77B87009	xor eax, ebp
+77B8700B	push eax
+77B8700C	lea eax,Dword ptr SS:[ebp-10h]
+77B8700F	mov Dword ptr FS:[00000000], eax 
+77B87015	mov ebx, edx
+77B87017	mov Dword ptr SS:[ebp-74h],ebx
+77B8701A	mov edi, ecx
+77B8701C	mov Dword ptr SS:[ebp-78h],edi
+77B8701F	mov Dword ptr SS:[ebp+FFFFFF78],00000000
+77B87029	mov Dword ptr SS:[ebp-70h],00000001
+77B87030	mov Byte ptr SS:[ebp-2Dh],00h
+77B87034	mov Dword ptr SS:[ebp-54h],00000000
+77B8703B	mov Dword ptr SS:[ebp-40h],00000000
+77B87042	mov Dword ptr SS:[ebp+FFFFFF6C],00000000
+77B8704C	mov esi,Dword ptr SS:[ebp+0Ch]
+77B8704F	shr esi, 03
+77B87052	test ebx,7D010F60
+77B87058	jnz 77B8708C
+77B8708C	xor eax, eax
+77B8708E	mov Dword ptr SS:[ebp-70h],eax
+77B87091	mov eax,Dword ptr SS:[ebp+14h]
+77B87094	mov Dword ptr DS:[eax], 00000004
+77B8709A	mov eax,Dword ptr SS:[ebp+08h]
+77B8709D	cmp eax, 7FFFFFFF
+77B870A2	jbe 77B870BA
+77B870BA	test ebx,61000000
+77B870C0	jz 77B870E4
+77B870C2	test ebx,10000000
+77B870C8	jnz 77B870E4
+77B870E4	test eax, eax
+77B870E6	jnz 77B870ED
+77B870ED	mov edx,Dword ptr DS:[edi+00000094]
+77B870F3	add edx, eax
+77B870F5	and edx,Dword ptr DS:[edi+00000098]
+77B870FB	cmp edx, 10
+77B870FE	jnb 77B87105
+77B87105	mov Dword ptr SS:[ebp+0Ch],edx
+77B87108	mov ecx, ebx
+77B8710A	shr ecx, 04
+77B8710D	and ecx, -1F
+77B87110	or ecx, 01
+77B87113	mov Dword ptr SS:[ebp-34h],ecx
+77B87116	test ebx,3C000100
+77B8711C	jnz 77B87127
+77B87127	or ecx, 02
+77B8712A	mov Dword ptr SS:[ebp-34h],ecx
+77B8712D	add edx, 08
+77B87130	mov Dword ptr SS:[ebp+0Ch],edx
+77B87133	shr edx, 03
+77B87136	mov Dword ptr SS:[ebp-24h],edx
+77B87139	and ebx, 00800000
+77B8713F	jz 77B87156
+77B87156	mov Dword ptr SS:[ebp-04h],00000000
+77B8715D	test Byte ptr SS:[ebp-74h],01
+77B87161	jnz 77B871F4
+77B871F4	cmp edx,Dword ptr DS:[edi+5Ch]
+77B871F7	ja 77B889DF
+77B871FD	test ebx, ebx
+77B871FF	jnz 77B8732E
+77B87205	movzx eax,Word ptr DS:[edi+000000F0]
+77B8720C	cmp esi, eax
+77B8720E	mov eax,Dword ptr SS:[ebp+08h]
+77B87211	jb 77B8724D
+77B8724D	cmp eax,Dword ptr DS:[77C63928]
+77B87253	ja 77B8732E
+77B87259	mov eax, esi
+77B8725B	shr eax, 03
+77B8725E	add eax, 000000F2
+77B87263	add eax, edi
+77B87265	mov Dword ptr SS:[ebp-44h],eax
+77B87268	mov dl,byte ptr DS:[eax]
+77B8726A	mov ebx, esi
+77B8726C	and ebx, 07
+77B8726F	mov eax, 00000001
+77B87274	mov ecx, ebx
+77B87276	shl eax, cl
+77B87278	test dl, al
+77B8727A	jnz 77B8732B
+77B87280	mov eax,Dword ptr DS:[edi+000000EC]
+77B87286	lea esi,Dword ptr DS:[esi*2+eax]
+77B87289	mov Dword ptr SS:[ebp+FFFFFEFC],esi
+77B8728F	add Word ptr DS:[esi],21h 
+77B87293	mov cx,Word ptr DS:[esi] 
+77B87296	cmp Dword ptr SS:[ebp+FFFFFF6C],00h
+77B8729D	jnz 77B872C7
+77B8729F	mov al, cl
+77B872A1	and al, 1F
+77B872A3	cmp al, 10
+77B872A5	ja 77B872BD
+77B872A7	mov eax, 0000FF00
+77B872AC	cmp cx, ax 
+77B872AF	ja 77B872BD
+77B872B1	mov Dword ptr SS:[ebp+FFFFFF48],00000000
+77B872BB	jmp 77B8732B
+77B8732B	mov edx,Dword ptr SS:[ebp-24h]
+77B8732E	mov esi,Dword ptr SS:[ebp+10h]
+77B87331	test esi, esi
+77B87333	jz 77B87589
+77B87589	lea eax,Dword ptr DS:[edi+000000C0]
+77B8758F	mov Dword ptr SS:[ebp+FFFFFF38],eax
+77B87595	mov esi,Dword ptr DS:[edi+000000B4]
+77B8759B	mov Dword ptr SS:[ebp-28h],esi
+77B8759E	mov edi, edi
+77B875A0	mov ecx,Dword ptr DS:[esi+04h]
+77B875A3	cmp edx, ecx
+77B875A5	jnb 77B875B1
+77B875A7	mov Dword ptr SS:[ebp+FFFFFF54],edx
+77B875AD	mov eax, edx
+77B875AF	jmp 77B875C4
+77B875C4	mov Dword ptr SS:[ebp-44h],eax
+77B875C7	jmp 77B875D0
+77B875D0	sub eax,Dword ptr DS:[esi+14h]
+77B875D3	mov Dword ptr SS:[ebp-4Ch],eax
+77B875D6	mov Dword ptr SS:[ebp-20h],00000000
+77B875DD	mov edx,Dword ptr DS:[esi+18h]
+77B875E0	mov Dword ptr SS:[ebp-5Ch],edx
+77B875E3	mov eax,Dword ptr DS:[edx+04h]
+77B875E6	cmp edx, eax
+77B875E8	jnz 77B875F1
+77B875F1	add eax, -08
+77B875F4	mov Dword ptr SS:[ebp-1Ch],eax
+77B875F7	mov ebx,Dword ptr DS:[eax]
+77B875F9	mov Dword ptr SS:[ebp+FFFFFEA8],ebx
+77B875FF	cmp Dword ptr DS:[edi+4Ch],00h
+77B87603	jz 77B8763D
+77B87605	xor ebx,Dword ptr DS:[edi+50h]
+77B87608	mov Dword ptr SS:[ebp+FFFFFEA8],ebx
+77B8760E	mov ecx, ebx
+77B87610	shr ecx, 10
+77B87613	mov eax, ebx
+77B87615	shr eax, 08
+77B87618	xor cl, al
+77B8761A	xor cl, bl
+77B8761C	mov eax, ebx
+77B8761E	shr eax, 18
+77B87621	cmp al, cl
+77B87623	jz 77B8763D
+77B8763D	movzx eax,bx
+77B87640	mov ecx,Dword ptr SS:[ebp-24h]
+77B87643	sub ecx, eax
+77B87645	mov Dword ptr SS:[ebp+FFFFFEF0],ecx
+77B8764B	test ecx, ecx
+77B8764D	jle 77B87656
+77B87656	mov eax,Dword ptr DS:[edx]
+77B87658	add eax, -08
+77B8765B	mov Dword ptr SS:[ebp-1Ch],eax
+77B8765E	mov ebx,Dword ptr DS:[eax]
+77B87660	mov Dword ptr SS:[ebp+FFFFFEA0],ebx
+77B87666	cmp Dword ptr DS:[edi+4Ch],00h
+77B8766A	jz 77B876A4
+77B8766C	xor ebx,Dword ptr DS:[edi+50h]
+77B8766F	mov Dword ptr SS:[ebp+FFFFFEA0],ebx
+77B87675	mov ecx, ebx
+77B87677	shr ecx, 10
+77B8767A	mov eax, ebx
+77B8767C	shr eax, 08
+77B8767F	xor cl, al
+77B87681	xor cl, bl
+77B87683	mov eax, ebx
+77B87685	shr eax, 18
+77B87688	cmp al, cl
+77B8768A	jz 77B876A4
+77B876A4	movzx eax,bx
+77B876A7	mov ecx,Dword ptr SS:[ebp-24h]
+77B876AA	sub ecx, eax
+77B876AC	mov Dword ptr SS:[ebp+FFFFFEEC],ecx
+77B876B2	test ecx, ecx
+77B876B4	jg 77B876BD
+77B876BD	cmp Dword ptr DS:[esi],00h
+77B876C0	jnz 77B8775A
+77B876C6	mov eax,Dword ptr DS:[esi+04h]
+77B876C9	dec eax
+77B876CA	cmp Dword ptr SS:[ebp-44h],eax
+77B876CD	jnz 77B8775A
+77B8775A	mov ecx,Dword ptr SS:[ebp-4Ch]
+77B8775D	mov edx, ecx
+77B8775F	shr edx, 05
+77B87762	mov eax,Dword ptr DS:[esi+04h]
+77B87765	sub eax,Dword ptr DS:[esi+14h]
+77B87768	shr eax, 05
+77B8776B	dec eax
+77B8776C	mov Dword ptr SS:[ebp-1Ch],eax
+77B8776F	mov eax,Dword ptr DS:[esi+1Ch]
+77B87772	lea eax,Dword ptr DS:[edx*4+eax]
+77B87775	and ecx, 1F
+77B87778	or ebx, -01
+77B8777B	shl ebx, cl
+77B8777D	and ebx,Dword ptr DS:[eax]
+77B8777F	mov ecx,Dword ptr SS:[ebp-1Ch]
+77B87782	mov Dword ptr SS:[ebp+FFFFFF3C],eax
+77B87788	mov Dword ptr SS:[ebp+FFFFFF68],edx
+77B8778E	test ebx, ebx
+77B87790	jnz 77B877A6
+77B877A6	test bx, bx 
+77B877A9	jz 77B877CD
+77B877CD	mov eax, ebx
+77B877CF	shr eax, 10
+77B877D2	movzx eax,al
+77B877D5	test eax, eax
+77B877D7	jz 77B877E5
+77B877D9	movzx eax,Byte ptr DS:[eax+77B489B0]
+77B877E0	add eax, 10
+77B877E3	jmp 77B877F2
+77B877F2	shl edx, 05
+77B877F5	add edx, eax
+77B877F7	mov Dword ptr SS:[ebp+FFFFFF68],edx
+77B877FD	cmp Dword ptr DS:[esi+08h],00h
+77B87801	jz 77B87805
+77B87805	mov eax,Dword ptr DS:[esi+20h]
+77B87808	mov eax,Dword ptr DS:[edx*4+eax]
+77B8780B	mov Dword ptr SS:[ebp-20h],eax
+77B8780E	test eax, eax
+77B87810	jz 77B889C8
+77B87816	mov Dword ptr SS:[ebp+FFFFFEE4],eax
+77B8781C	cmp Dword ptr SS:[ebp+FFFFFF38],eax
+77B87822	jz 77B87A69
+77B87828	lea ebx,Dword ptr DS:[eax-08h]
+77B8782B	mov Dword ptr SS:[ebp-58h],ebx
+77B8782E	cmp Dword ptr DS:[edi+4Ch],00h
+77B87832	jz 77B87853
+77B87834	mov eax,Dword ptr DS:[edi+50h]
+77B87837	xor Dword ptr DS:[ebx],eax
+77B87839	mov al,byte ptr DS:[ebx+02h]
+77B8783C	xor al,byte ptr DS:[ebx+01h]
+77B8783F	xor al,byte ptr DS:[ebx]
+77B87841	cmp byte ptr DS:[ebx+03h],al
+77B87844	jz 77B87850
+77B87850	mov eax,Dword ptr SS:[ebp-20h]
+77B87853	movzx esi,Word ptr DS:[ebx]
+77B87856	cmp esi,Dword ptr SS:[ebp-24h]
+77B87859	jb 77B87A53
+77B8785F	mov edx,Dword ptr DS:[ebx+08h]
+77B87862	mov Dword ptr SS:[ebp-7Ch],edx
+77B87865	mov ecx,Dword ptr DS:[ebx+0Ch]
+77B87868	mov Dword ptr SS:[ebp+FFFFFF74],ecx
+77B8786E	mov ecx,Dword ptr DS:[ecx]
+77B87870	mov edx,Dword ptr DS:[edx+04h]
+77B87873	cmp ecx, edx
+77B87875	jnz 77B87A39
+77B8787B	cmp ecx, eax
+77B8787D	jnz 77B87A39
+77B87883	sub Dword ptr DS:[edi+74h],esi
+77B87886	mov ecx,Dword ptr DS:[edi+000000B4]
+77B8788C	mov Dword ptr SS:[ebp-28h],ecx
+77B8788F	test ecx, ecx
+77B87891	jz 77B879A7
+77B87897	movzx esi,Word ptr DS:[ebx]
+77B8789A	mov Dword ptr SS:[ebp-44h],esi
+77B8789D	lea ecx,Dword ptr DS:[ecx+00h]
+77B878A0	mov edx,Dword ptr DS:[ecx+04h]
+77B878A3	cmp esi, edx
+77B878A5	jb 77B878B7
+77B878B7	mov Dword ptr SS:[ebp+FFFFFF34],esi
+77B878BD	movzx eax,Word ptr DS:[ebx]
+77B878C0	mov Dword ptr SS:[ebp-68h],eax
+77B878C3	mov edx, esi
+77B878C5	sub edx,Dword ptr DS:[ecx+14h]
+77B878C8	mov Dword ptr SS:[ebp-20h],edx
+77B878CB	cmp Dword ptr DS:[ecx+08h],00h
+77B878CF	lea eax,Dword ptr DS:[edx+edx]
+77B878D2	jnz 77B878D6
+77B878D4	mov eax, edx
+77B878D6	lea edi,Dword ptr DS:[eax*4+00000000]
+77B878DD	mov Dword ptr SS:[ebp-4Ch],edi
+77B878E0	mov eax,Dword ptr DS:[ecx+20h]
+77B878E3	add eax, edi
+77B878E5	mov Dword ptr SS:[ebp-5Ch],eax
+77B878E8	mov eax,Dword ptr DS:[eax]
+77B878EA	mov Dword ptr SS:[ebp-1Ch],eax
+77B878ED	dec Dword ptr DS:[ecx+0Ch]
+77B878F0	mov eax,Dword ptr DS:[ecx+04h]
+77B878F3	lea edi,Dword ptr DS:[eax-01h]
+77B878F6	mov Dword ptr SS:[ebp-2Ch],edi
+77B878F9	cmp esi, edi
+77B878FB	mov edi,Dword ptr SS:[ebp-78h]
+77B878FE	jnz 77B87903
+77B87903	lea esi,Dword ptr DS:[ebx+08h]
+77B87906	cmp Dword ptr SS:[ebp-1Ch],esi
+77B87909	jnz 77B879A7
+77B8790F	mov Dword ptr SS:[ebp+FFFFFF30],eax
+77B87915	cmp Dword ptr DS:[ecx],00h
+77B87918	jnz 77B87923
+77B8791A	mov eax,Dword ptr SS:[ebp-2Ch]
+77B8791D	mov Dword ptr SS:[ebp+FFFFFF30],eax
+77B87923	mov esi,Dword ptr DS:[esi]
+77B87925	mov edi,Dword ptr DS:[ecx+18h]
+77B87928	mov Dword ptr SS:[ebp-1Ch],edi
+77B8792B	cmp Dword ptr SS:[ebp-44h],eax
+77B8792E	mov edi,Dword ptr SS:[ebp-78h]
+77B87931	jnb 77B87A12
+77B87937	cmp esi,Dword ptr DS:[ecx+18h]
+77B8793A	jz 77B879E3
+77B87940	mov ebx,Dword ptr DS:[esi-08h]
+77B87943	mov Dword ptr SS:[ebp+FFFFFE90],ebx
+77B87949	cmp Dword ptr DS:[edi+4Ch],00h
+77B8794D	jz 77B8798B
+77B8794F	xor ebx,Dword ptr DS:[edi+50h]
+77B87952	mov Dword ptr SS:[ebp+FFFFFE90],ebx
+77B87958	mov ecx, ebx
+77B8795A	shr ecx, 10
+77B8795D	mov eax, ebx
+77B8795F	shr eax, 08
+77B87962	xor cl, al
+77B87964	xor cl, bl
+77B87966	mov eax, ebx
+77B87968	shr eax, 18
+77B8796B	cmp al, cl
+77B8796D	jz 77B87988
+77B87988	mov ecx,Dword ptr SS:[ebp-28h]
+77B8798B	movzx eax,bx
+77B8798E	mov ebx,Dword ptr SS:[ebp-68h]
+77B87991	sub ebx, eax
+77B87993	mov Dword ptr SS:[ebp+FFFFFEE0],ebx
+77B87999	jnz 77B879E0
+77B8799B	mov eax,Dword ptr DS:[ecx+20h]
+77B8799E	mov ecx,Dword ptr SS:[ebp-4Ch]
+77B879A1	mov Dword ptr DS:[eax+ecx],esi
+77B879A4	mov ebx,Dword ptr SS:[ebp-58h]
+77B879A7	mov eax,Dword ptr SS:[ebp-7Ch]
+77B879AA	mov ecx,Dword ptr SS:[ebp+FFFFFF74]
+77B879B0	mov Dword ptr DS:[ecx],eax
+77B879B2	mov Dword ptr DS:[eax+04h],ecx
+77B879B5	test Byte ptr DS:[ebx+02h],08
+77B879B9	jz 77B87A30
+77B87A30	mov Byte ptr SS:[ebp-36h],01h
+77B87A34	jmp 77B87B18
+77B87B18	mov cl,byte ptr DS:[ebx+02h]
+77B87B1B	mov byte ptr SS:[ebp-37h],cl
+77B87B1E	mov esi,Dword ptr SS:[ebp-70h]
+77B87B21	test esi, esi
+77B87B23	jnz 77B87BEF
+77B87B29	test cl,04
+77B87B2C	jz 77B87BEF
+77B87B32	movzx eax,Word ptr DS:[ebx]
+77B87B35	lea esi,Dword ptr DS:[eax*8+FFFFFFF0]
+77B87B3C	mov Dword ptr SS:[ebp+FFFFFF28],esi
+77B87B42	test cl,02
+77B87B45	jz 77B87B55
+77B87B55	push FEEEFEEE
+77B87B5A	push esi
+77B87B5B	lea eax,Dword ptr DS:[ebx+10h]
+77B87B5E	push eax
+77B87B5F	call 77BC80A0
+77BC80A0	push edi
+77BC80A1	mov edi,Dword ptr SS:[esp+08h]
+77BC80A5	mov ecx,Dword ptr SS:[esp+0Ch]
+77BC80A9	mov eax,Dword ptr SS:[esp+10h]
+77BC80AD	shr ecx, 02
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B0	repe scas Dword ptr ES:[edi]
+77BC80B2	jz 77BC80B7
+77BC80B7	sub edi,Dword ptr SS:[esp+08h]
+77BC80BB	mov eax, edi
+77BC80BD	pop edi
+77BC80BE	ret 000C
+77B87B64	mov Dword ptr SS:[ebp-1Ch],eax
+77B87B67	cmp eax, esi
+77B87B69	jz 77B87BEC
+77B87BEC	mov esi,Dword ptr SS:[ebp-70h]
+77B87BEF	mov Dword ptr SS:[ebp-64h],ebx
+77B87BF2	test Byte ptr DS:[ebx+02h],01
+77B87BF6	jz 77B87C10
+77B87C10	mov eax,Dword ptr SS:[ebp-34h]
+77B87C13	mov byte ptr DS:[ebx+02h],al
+77B87C16	movzx edx,Word ptr DS:[ebx]
+77B87C19	mov ecx,Dword ptr SS:[ebp-24h]
+77B87C1C	sub edx, ecx
+77B87C1E	mov Dword ptr SS:[ebp-4Ch],edx
+77B87C21	mov Dword ptr SS:[ebp+FFFFFEDC],edx
+77B87C27	movzx eax,cx
+77B87C2A	mov Dword ptr SS:[ebp-1Ch],eax
+77B87C2D	mov Word ptr DS:[ebx],ax 
+77B87C30	mov eax,Dword ptr SS:[ebp+0Ch]
+77B87C33	sub eax,Dword ptr SS:[ebp+08h]
+77B87C36	mov Dword ptr SS:[ebp-68h],eax
+77B87C39	cmp eax, 3F
+77B87C3C	jnb 77B87C43
+77B87C3E	mov byte ptr DS:[ebx+07h],al
+77B87C41	jmp 77B87C4B
+77B87C4B	mov Byte ptr DS:[ebx+03h],00h
+77B87C4F	test edx, edx
+77B87C51	jz 77B87C71
+77B87C53	cmp edx, 01
+77B87C56	jnz 77B87E2D
+77B87E2D	xor eax, eax
+77B87E2F	test esi, esi
+77B87E31	sete al
+77B87E34	mov Dword ptr SS:[ebp-28h],eax
+77B87E37	mov Dword ptr SS:[ebp+FFFFFF4C],eax
+77B87E3D	mov al,byte ptr DS:[ebx+06h]
+77B87E40	test al, al
+77B87E42	jz 77B87E5E
+77B87E5E	mov ecx, edi
+77B87E60	mov esi, edi
+77B87E62	mov Dword ptr SS:[ebp+FFFFFF24],ecx
+77B87E68	mov Dword ptr SS:[ebp-2Ch],edx
+77B87E6B	mov eax,Dword ptr SS:[ebp-24h]
+77B87E6E	lea ebx,Dword ptr DS:[eax*8+ebx]
+77B87E71	mov Dword ptr SS:[ebp-44h],00000000
+77B87E78	mov al,byte ptr SS:[ebp-37h]
+77B87E7B	mov byte ptr DS:[ebx+02h],al
+77B87E7E	mov Byte ptr DS:[ebx+07h],00h
+77B87E82	mov ax,Word ptr DS:[edi+54h] 
+77B87E86	xor ax,Word ptr SS:[ebp-1Ch] 
+77B87E8A	mov Word ptr DS:[ebx+04h],ax 
+77B87E8E	cmp Dword ptr DS:[ecx+18h],esi
+77B87E91	jnz 77B87E97
+77B87E93	xor al, al
+77B87E95	jmp 77B87EC5
+77B87EC5	mov byte ptr SS:[ebp-6Ah],al
+77B87EC8	mov byte ptr DS:[ebx+06h],al
+77B87ECB	mov Byte ptr DS:[ebx+03h],00h
+77B87ECF	mov Word ptr DS:[ebx],dx 
+77B87ED2	lea esi,Dword ptr DS:[edx*8+ebx]
+77B87ED5	mov ecx,Dword ptr DS:[edi+4Ch]
+77B87ED8	mov eax, ecx
+77B87EDA	shr eax, 14
+77B87EDD	and al,byte ptr DS:[edi+52h]
+77B87EE0	xor al,byte ptr DS:[esi+02h]
+77B87EE3	test al, 01
+77B87EE5	jz 77B88459
+77B87EEB	movzx edx,dx
+77B87EEE	mov Dword ptr SS:[ebp-24h],edx
+77B87EF1	mov ax,Word ptr DS:[edi+54h] 
+77B87EF5	xor ax, dx 
+77B87EF8	mov Word ptr DS:[esi+04h],ax 
+77B87EFC	cmp Byte ptr SS:[ebp-28h],00h
+77B87F00	jnz 77B88357
+77B88357	mov al,byte ptr DS:[ebx+02h]
+77B8835A	and al, F0
+77B8835C	mov byte ptr DS:[ebx+02h],al
+77B8835F	mov Byte ptr DS:[ebx+07h],00h
+77B88363	test Byte ptr DS:[edi+40h],40
+77B88367	jz 77B88386
+77B88369	push FEEEFEEE
+77B8836E	lea eax,Dword ptr DS:[edx*8+FFFFFFF0]
+77B88375	push eax
+77B88376	lea eax,Dword ptr DS:[ebx+10h]
+77B88379	push eax
+77B8837A	call 77BC8140
+77BC8140	push edi
+77BC8141	mov edi,Dword ptr SS:[esp+08h]
+77BC8145	mov ecx,Dword ptr SS:[esp+0Ch]
+77BC8149	mov eax,Dword ptr SS:[esp+10h]
+77BC814D	shr ecx, 02
+77BC8150	rep stos Dword ptr ES:[edi]
+77BC8150	rep stos Dword ptr ES:[edi]
+77BC8150	rep stos Dword ptr ES:[edi]
+77BC8150	rep stos Dword ptr ES:[edi]
+77BC8150	rep stos Dword ptr ES:[edi]
+77BC8150	rep stos Dword ptr ES:[edi]
+77BC8150	rep stos Dword ptr ES:[edi]
+77BC8150	rep stos Dword ptr ES:[edi]
+77BC8150	rep stos Dword ptr ES:[edi]
+77BC8150	rep stos Dword ptr ES:[edi]
+77BC8150	rep stos Dword ptr ES:[edi]
+77BC8150	rep stos Dword ptr ES:[edi]
+77BC8150	rep stos Dword ptr ES:[edi]
+77BC8150	rep stos Dword ptr ES:[edi]
+77BC8150	rep stos Dword ptr ES:[edi]
+77BC8150	rep stos Dword ptr ES:[edi]
+77BC8150	rep stos Dword ptr ES:[edi]
+77BC8150	rep stos Dword ptr ES:[edi]
+77BC8152	pop edi
+77BC8153	ret 000C
+77B8837F	or Byte ptr DS:[ebx+02h],04h
+77B88383	mov edx,Dword ptr SS:[ebp-24h]
+77B88386	lea esi,Dword ptr DS:[edi+000000C0]
+77B8838C	cmp Dword ptr DS:[edi+000000B4],00h
+77B88393	jz 77B883A0
+77B88395	mov ecx, edi
+77B88397	call 77B71C0E
+77B71C0E	mov edi, edi
+77B71C10	push ebx
+77B71C11	mov ebx, ecx
+77B71C13	push esi
+77B71C14	push edi
+77B71C15	mov edi, edx
+77B71C17	mov esi,Dword ptr DS:[ebx+000000B4]
+77B71C1D	cmp edi,Dword ptr DS:[esi+04h]
+77B71C20	jnb 77B71C39
+77B71C22	mov eax, edi
+77B71C24	push edi
+77B71C25	push eax
+77B71C26	push 01
+77B71C28	mov edx, esi
+77B71C2A	mov ecx, ebx
+77B71C2C	call 77B80D69
+77B80D69	mov edi, edi
+77B80D6B	push ebp
+77B80D6C	mov ebp, esp
+77B80D6E	sub esp, 18
+77B80D71	push ebx
+77B80D72	mov ebx, edx
+77B80D74	mov eax, ecx
+77B80D76	push esi
+77B80D77	push edi
+77B80D78	mov edi,Dword ptr SS:[ebp+0Ch]
+77B80D7B	xor esi, esi
+77B80D7D	mov ecx,Dword ptr DS:[ebx+18h]
+77B80D80	sub edi,Dword ptr DS:[ebx+14h]
+77B80D83	mov Dword ptr SS:[ebp-0Ch],eax
+77B80D86	mov Dword ptr SS:[ebp-10h],edi
+77B80D89	mov edx,Dword ptr DS:[ecx+04h]
+77B80D8C	mov Dword ptr SS:[ebp-04h],ecx
+77B80D8F	cmp ecx, edx
+77B80D91	jz 77B80DE4
+77B80D93	cmp Byte ptr SS:[ebp+08h],00h
+77B80D97	jz 77BD53FA
+77B80D9D	add edx, -08
+77B80DA0	mov Dword ptr SS:[ebp-14h],edx
+77B80DA3	mov edx,Dword ptr DS:[edx]
+77B80DA5	mov Dword ptr SS:[ebp-08h],edx
+77B80DA8	cmp Dword ptr DS:[eax+4Ch],esi
+77B80DAB	jz 77B80DD5
+77B80DAD	mov edx,Dword ptr DS:[eax+50h]
+77B80DB0	xor edx,Dword ptr SS:[ebp-08h]
+77B80DB3	mov ecx, edx
+77B80DB5	mov Dword ptr SS:[ebp-08h],edx
+77B80DB8	mov eax, edx
+77B80DBA	shr ecx, 10
+77B80DBD	shr eax, 08
+77B80DC0	xor cl, al
+77B80DC2	xor cl, dl
+77B80DC4	shr edx, 18
+77B80DC7	cmp dl, cl
+77B80DC9	jnz 77BD53E4
+77B80DCF	mov edx,Dword ptr SS:[ebp-08h]
+77B80DD2	mov ecx,Dword ptr SS:[ebp-04h]
+77B80DD5	movzx eax,dx
+77B80DD8	mov edx,Dword ptr SS:[ebp+10h]
+77B80DDB	sub edx, eax
+77B80DDD	mov eax,Dword ptr SS:[ebp-0Ch]
+77B80DE0	test edx, edx
+77B80DE2	jle 77B80DEF
+77B80DEF	cmp Byte ptr SS:[ebp+08h],00h
+77B80DF3	mov edx,Dword ptr DS:[ecx]
+77B80DF5	jz 77BD5421
+77B80DFB	add edx, -08
+77B80DFE	mov Dword ptr SS:[ebp-14h],edx
+77B80E01	mov edx,Dword ptr DS:[edx]
+77B80E03	mov Dword ptr SS:[ebp-08h],edx
+77B80E06	cmp Dword ptr DS:[eax+4Ch],esi
+77B80E09	jz 77B80E33
+77B80E0B	mov edx,Dword ptr DS:[eax+50h]
+77B80E0E	xor edx,Dword ptr SS:[ebp-08h]
+77B80E11	mov ecx, edx
+77B80E13	mov Dword ptr SS:[ebp-08h],edx
+77B80E16	mov eax, edx
+77B80E18	shr ecx, 10
+77B80E1B	shr eax, 08
+77B80E1E	xor cl, al
+77B80E20	xor cl, dl
+77B80E22	shr edx, 18
+77B80E25	cmp dl, cl
+77B80E27	jnz 77BD540B
+77B80E2D	mov edx,Dword ptr SS:[ebp-08h]
+77B80E30	mov ecx,Dword ptr SS:[ebp-04h]
+77B80E33	movzx eax,dx
+77B80E36	mov edx,Dword ptr SS:[ebp+10h]
+77B80E39	sub edx, eax
+77B80E3B	test edx, edx
+77B80E3D	jle 77B80F65
+77B80E43	cmp Dword ptr DS:[ebx],esi
+77B80E45	jnz 77B80EC0
+77B80E47	mov eax,Dword ptr DS:[ebx+04h]
+77B80E4A	dec eax
+77B80E4B	cmp Dword ptr SS:[ebp+0Ch],eax
+77B80E4E	jnz 77B80EC0
+77B80EC0	mov eax,Dword ptr DS:[ebx+04h]
+77B80EC3	or edx, -01
+77B80EC6	sub eax,Dword ptr DS:[ebx+14h]
+77B80EC9	mov ecx,Dword ptr SS:[ebp-10h]
+77B80ECC	shr eax, 05
+77B80ECF	and ecx, 1F
+77B80ED2	shr edi, 05
+77B80ED5	dec eax
+77B80ED6	mov Dword ptr SS:[ebp-0Ch],eax
+77B80ED9	mov eax,Dword ptr DS:[ebx+1Ch]
+77B80EDC	shl edx, cl
+77B80EDE	lea eax,Dword ptr DS:[edi*4+eax]
+77B80EE1	mov ecx, eax
+77B80EE3	mov Dword ptr SS:[ebp-14h],eax
+77B80EE6	and edx,Dword ptr DS:[ecx]
+77B80EE8	jz 77B80F12
+77B80EEA	test dx, dx 
+77B80EED	jz 77B80F2C
+77B80F2C	mov eax, edx
+77B80F2E	shr eax, 10
+77B80F31	movzx eax,al
+77B80F34	test eax, eax
+77B80F36	jnz 77B80F59
+77B80F59	movzx eax,Byte ptr DS:[eax+77B489B0]
+77B80F60	add eax, 10
+77B80F63	jmp 77B80EFD
+77B80EFD	shl edi, 05
+77B80F00	add edi, eax
+77B80F02	cmp Dword ptr DS:[ebx+08h],esi
+77B80F05	jnz 77B80F6C
+77B80F07	mov eax,Dword ptr DS:[ebx+20h]
+77B80F0A	mov esi,Dword ptr DS:[edi*4+eax]
+77B80F0D	jmp 77B80DE6
+77B80DE6	pop edi
+77B80DE7	mov eax, esi
+77B80DE9	pop esi
+77B80DEA	pop ebx
+77B80DEB	leave
+77B80DEC	ret 000C
+77B71C31	test eax, eax
+77B71C33	jz 77B71C43
+77B71C35	pop edi
+77B71C36	pop esi
+77B71C37	pop ebx
+77B71C38	ret
+77B8839C	mov ecx, eax
+77B8839E	jmp 77B883A2
+77B883A2	cmp esi, ecx
+77B883A4	jz 77B883D6
+77B883A6	cmp Dword ptr DS:[edi+4Ch],00h
+77B883AA	jz 77B883BF
+77B883AC	mov edx,Dword ptr DS:[ecx-08h]
+77B883AF	mov Dword ptr SS:[ebp-48h],edx
+77B883B2	test Dword ptr DS:[edi+4Ch],edx
+77B883B5	jz 77B883C3
+77B883B7	xor edx,Dword ptr DS:[edi+50h]
+77B883BA	mov Dword ptr SS:[ebp-48h],edx
+77B883BD	jmp 77B883C3
+77B883C3	mov Word ptr SS:[ebp+FFFFFF7E],dx 
+77B883CA	movzx eax,dx
+77B883CD	cmp Dword ptr SS:[ebp-24h],eax
+77B883D0	jbe 77B883D6
+77B883D6	lea esi,Dword ptr DS:[ebx+08h]
+77B883D9	mov eax,Dword ptr DS:[ecx+04h]
+77B883DC	mov edx,Dword ptr DS:[eax]
+77B883DE	cmp edx, ecx
+77B883E0	jnz 77B883EE
+77B883E2	mov Dword ptr DS:[esi],ecx
+77B883E4	mov Dword ptr DS:[esi+04h],eax
+77B883E7	mov Dword ptr DS:[eax],esi
+77B883E9	mov Dword ptr DS:[ecx+04h],esi
+77B883EC	jmp 77B883FE
+77B883FE	movzx eax,Word ptr DS:[ebx]
+77B88401	add Dword ptr DS:[edi+74h],eax
+77B88404	mov edx,Dword ptr DS:[edi+000000B4]
+77B8840A	test edx, edx
+77B8840C	jz 77B88436
+77B8840E	movzx ecx,Word ptr DS:[ebx]
+77B88411	cmp ecx,Dword ptr DS:[edx+04h]
+77B88414	jnb 77B8841A
+77B88416	mov eax, ecx
+77B88418	jmp 77B88424
+77B88424	mov Dword ptr SS:[ebp+FFFFFF18],eax
+77B8842A	push ecx
+77B8842B	push eax
+77B8842C	push esi
+77B8842D	push 01
+77B8842F	mov ecx, edi
+77B88431	call 77B71B5D
+77B71B5D	mov edi, edi
+77B71B5F	push ebp
+77B71B60	mov ebp, esp
+77B71B62	sub esp, 0C
+77B71B65	push ebx
+77B71B66	push esi
+77B71B67	mov esi, edx
+77B71B69	mov Dword ptr SS:[ebp-0Ch],ecx
+77B71B6C	push edi
+77B71B6D	mov edi,Dword ptr SS:[ebp+10h]
+77B71B70	sub edi,Dword ptr DS:[esi+14h]
+77B71B73	cmp Dword ptr DS:[esi+08h],00h
+77B71B77	jnz 77BC8DEB
+77B71B7D	mov edx, edi
+77B71B7F	mov Dword ptr SS:[ebp-04h],edi
+77B71B82	mov eax,Dword ptr DS:[esi+20h]
+77B71B85	inc Dword ptr DS:[esi+0Ch]
+77B71B88	mov ebx,Dword ptr DS:[edx*4+eax]
+77B71B8B	mov eax,Dword ptr DS:[esi+04h]
+77B71B8E	dec eax
+77B71B8F	cmp Dword ptr SS:[ebp+10h],eax
+77B71B92	jnz 77B71B97
+77B71B97	test ebx, ebx
+77B71B99	jnz 77B71BC3
+77B71B9B	mov ecx,Dword ptr DS:[esi+20h]
+77B71B9E	mov eax,Dword ptr SS:[ebp+0Ch]
+77B71BA1	mov Dword ptr DS:[edx*4+ecx],eax
+77B71BA4	test ebx, ebx
+77B71BA6	jnz 77B71BBC
+77B71BA8	mov ecx,Dword ptr DS:[esi+1Ch]
+77B71BAB	mov edx, edi
+77B71BAD	shr edx, 05
+77B71BB0	and edi, 1F
+77B71BB3	mov eax,Dword ptr DS:[edx*4+ecx]
+77B71BB6	bts eax,edi
+77B71BB9	mov Dword ptr DS:[edx*4+ecx],eax
+77B71BBC	pop edi
+77B71BBD	pop esi
+77B71BBE	pop ebx
+77B71BBF	leave
+77B71BC0	ret 0010
+77B88436	cmp Dword ptr DS:[edi+4Ch],00h
+77B8843A	jz 77B887E3
+77B88440	mov al,byte ptr DS:[ebx+02h]
+77B88443	xor al,byte ptr DS:[ebx+01h]
+77B88446	xor al,byte ptr DS:[ebx]
+77B88448	mov byte ptr DS:[ebx+03h],al
+77B8844B	mov eax,Dword ptr DS:[edi+50h]
+77B8844E	xor Dword ptr DS:[ebx],eax
+77B88450	jmp 77B887E3
+77B887E3	mov Byte ptr SS:[ebp-69h],01h
+77B887E7	mov Byte ptr SS:[ebp-37h],00h
+77B887EB	jmp 77B87C71
+77B87C71	mov ecx,Dword ptr SS:[ebp-64h]
+77B87C74	lea esi,Dword ptr DS:[ecx+08h]
+77B87C77	mov Dword ptr SS:[ebp-54h],esi
+77B87C7A	movzx eax,Word ptr DS:[ecx]
+77B87C7D	lea edx,Dword ptr DS:[eax*8+00000000]
+77B87C84	mov Dword ptr SS:[ebp+FFFFFF78],edx
+77B87C8A	lea eax,Dword ptr DS:[ecx+07h]
+77B87C8D	mov Dword ptr SS:[ebp-1Ch],eax
+77B87C90	mov al,byte ptr DS:[eax]
+77B87C92	and al, 3F
+77B87C94	cmp al, 3F
+77B87C96	jnz 77B87CA1
+77B87CA1	cmp Dword ptr SS:[ebp-70h],00h
+77B87CA5	jz 77B88861
+77B88861	test Byte ptr SS:[ebp-74h],08
+77B88865	jz 77B888BA
+77B88867	lea eax,Dword ptr DS:[edx-08h]
+77B8886A	push eax
+77B8886B	push 00
+77B8886D	push esi
+77B8886E	call 77BB8F40
+77BB8F40	mov edx,Dword ptr SS:[esp+0Ch]
+77BB8F44	mov ecx,Dword ptr SS:[esp+04h]
+77BB8F48	test edx, edx
+77BB8F4A	jz 77BB8F9B
+77BB8F4C	xor eax, eax
+77BB8F4E	mov al,byte ptr SS:[esp+08h]
+77BB8F52	push edi
+77BB8F53	mov edi, ecx
+77BB8F55	cmp edx, 04
+77BB8F58	jb 77BB8F8B
+77BB8F5A	neg ecx
+77BB8F5C	and ecx, 03
+77BB8F5F	jz 77BB8F6D
+77BB8F6D	mov ecx, eax
+77BB8F6F	shl eax, 08
+77BB8F72	add eax, ecx
+77BB8F74	mov ecx, eax
+77BB8F76	shl eax, 10
+77BB8F79	add eax, ecx
+77BB8F7B	mov ecx, edx
+77BB8F7D	and edx, 03
+77BB8F80	shr ecx, 02
+77BB8F83	jz 77BB8F8B
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F87	test edx, edx
+77BB8F89	jz 77BB8F95
+77BB8F95	mov eax,Dword ptr SS:[esp+08h]
+77BB8F99	pop edi
+77BB8F9A	ret
+77B88873	add esp, 0C
+77B88876	mov ebx,Dword ptr SS:[ebp+08h]
+77B88879	test Byte ptr DS:[edi+40h],20
+77B8887D	jz 77B88895
+77B8887F	mov Dword ptr DS:[ebx+esi],ABABABAB
+77B88886	mov Dword ptr DS:[ebx+esi+04h],ABABABAB
+77B8888E	mov eax,Dword ptr SS:[ebp-64h]
+77B88891	or Byte ptr DS:[eax+02h],04h
+77B88895	mov ecx,Dword ptr SS:[ebp-64h]
+77B88898	lea ebx,Dword ptr DS:[ecx+03h]
+77B8889B	mov Byte ptr DS:[ebx],00h
+77B8889E	lea eax,Dword ptr DS:[ecx+02h]
+77B888A1	mov Dword ptr SS:[ebp-2Ch],eax
+77B888A4	test Byte ptr DS:[eax],02
+77B888A7	jz 77B88947
+77B888AD	mov eax,Dword ptr SS:[ebp-1Ch]
+77B888B0	cmp Byte ptr DS:[eax],04h
+77B888B3	jnz 77B888D8
+77B888D8	mov ecx,Dword ptr SS:[ebp-64h]
+77B888DB	movzx eax,Word ptr DS:[ecx]
+77B888DE	dec eax
+77B888DF	lea esi,Dword ptr DS:[eax*8+ecx]
+77B888E2	mov eax, esi
+77B888E4	mov Dword ptr SS:[ebp+FFFFFF58],esi
+77B888EA	xor ecx, ecx
+77B888EC	mov Dword ptr DS:[eax],ecx
+77B888EE	mov Dword ptr DS:[eax+04h],ecx
+77B888F1	test Dword ptr DS:[edi+40h],08000000
+77B888F8	jz 77B88907
+77B88907	mov eax, Dword ptr FS:[00000030] 
+77B8890D	mov eax,Dword ptr DS:[eax+68h]
+77B88910	mov Dword ptr SS:[ebp+FFFFFEC4],eax
+77B88916	test eax, 00000800
+77B8891B	jz 77B8897C
+77B8897C	mov esi,Dword ptr SS:[ebp-64h]
+77B8897F	cmp Dword ptr DS:[edi+4Ch],00h
+77B88983	jz 77B88C4A
+77B88989	mov al,byte ptr DS:[esi+01h]
+77B8898C	mov ecx,Dword ptr SS:[ebp-2Ch]
+77B8898F	xor al,byte ptr DS:[ecx]
+77B88991	xor al,byte ptr DS:[esi]
+77B88993	mov byte ptr DS:[ebx],al
+77B88995	mov eax,Dword ptr DS:[edi+50h]
+77B88998	xor Dword ptr DS:[esi],eax
+77B8899A	jmp 77B88C4A
+77B88C4A	mov Dword ptr SS:[ebp-04h],FFFFFFFE
+77B88C51	call 77B88C72
+77B88C72	cmp Byte ptr SS:[ebp-2Dh],00h
+77B88C76	jz 77B88C96
+77B88C96	ret
+77B88C56	call 77B83C40
+77B83C40	mov eax, Dword ptr FS:[00000030] 
+77B83C46	mov eax,Dword ptr DS:[eax+50h]
+77B83C49	test eax, eax
+77B83C4B	jnz 77B83C4E
+77B83C4D	ret
+77B88C5B	test eax, eax
+77B88C5D	jz 77B88C97
+77B88C97	mov eax, 7FFE0388
+77B88C9C	cmp Byte ptr DS:[eax],00h
+77B88C9F	jz 77B88CC0
+77B88CC0	mov eax,Dword ptr SS:[ebp-54h]
+77B88CC3	mov ecx,Dword ptr SS:[ebp-10h]
+77B88CC6	mov Dword ptr FS:[00000000],ecx 
+77B88CCD	pop ecx
+77B88CCE	pop edi
+77B88CCF	pop esi
+77B88CD0	pop ebx
+77B88CD1	mov esp, ebp
+77B88CD3	pop ebp
+77B88CD4	ret 0010
+77B86E2C	mov edi, eax
+77B86E2E	test edi, edi
+77B86E30	jz 77B86E7B
+77B86E32	mov ecx,Dword ptr SS:[ebp-18h]
+77B86E35	mov edx,Dword ptr SS:[ebp-3Ch]
+77B86E38	test edx, edx
+77B86E3A	jz 77B86EB8
+77B86EB8	mov esi,Dword ptr SS:[ebp-0Ch]
+77B86EBB	mov ecx,Dword ptr SS:[ebp-1Ch]
+77B86EBE	mov eax, Dword ptr FS:[00000030] 
+77B86EC4	mov eax,Dword ptr DS:[eax+50h]
+77B86EC7	test eax, eax
+77B86EC9	jz 77B86EE5
+77B86EE5	mov eax, 7FFE0380
+77B86EEA	cmp Byte ptr DS:[eax],00h
+77B86EED	jz 77B86F86
+77B86F86	mov esi,Dword ptr SS:[ebp-0Ch]
+77B86F89	mov eax, Dword ptr DS:[77C66834]
+77B86F8E	test al, 01
+77B86F90	jz 77B86FCD
+77B86FCD	mov eax, edi
+77B86FCF	pop edi
+77B86FD0	pop esi
+77B86FD1	mov esp, ebp
+77B86FD3	pop ebp
+77B86FD4	mov esp, ebx
+77B86FD6	pop ebx
+77B86FD7	ret 0008
+77B85DCE	pop esi
+77B85DCF	mov esp, ebp
+77B85DD1	pop ebp
+77B85DD2	ret 000C
+77C1F186	mov edi, eax
+77C1F188	mov Dword ptr SS:[ebp-24h],edi
+77C1F18B	mov dl, 01
+77C1F18D	mov ecx, esi
+77C1F18F	call 77C20D24
+77C20D24	mov edi, edi
+77C20D26	push ebp
+77C20D27	mov ebp, esp
+77C20D29	push ecx
+77C20D2A	cmp Byte ptr DS:[77C66D70],00h
+77C20D31	push ebx
+77C20D32	push esi
+77C20D33	push edi
+77C20D34	mov esi, ecx
+77C20D36	jz 77C20E66
+77C20E66	mov al, 01
+77C20E68	pop edi
+77C20E69	pop esi
+77C20E6A	pop ebx
+77C20E6B	leave
+77C20E6C	ret
+77C1F194	test edi, edi
+77C1F196	jz 77C1F3D5
+77C1F19C	add edi, -08
+77C1F19F	cmp Byte ptr DS:[edi+07h],05h
+77C1F1A3	jnz 77C1F1AE
+77C1F1AE	mov ecx, edi
+77C1F1B0	mov Dword ptr SS:[ebp-38h],edi
+77C1F1B3	cmp Dword ptr DS:[esi+4Ch],ebx
+77C1F1B6	jz 77C1F1D4
+77C1F1B8	mov eax,Dword ptr DS:[esi+50h]
+77C1F1BB	xor Dword ptr DS:[edi],eax
+77C1F1BD	mov al,byte ptr DS:[ecx+02h]
+77C1F1C0	xor al,byte ptr DS:[ecx+01h]
+77C1F1C3	xor al,byte ptr DS:[ecx]
+77C1F1C5	cmp byte ptr DS:[edi+03h],al
+77C1F1C8	jz 77C1F1D4
+77C1F1D4	test Byte ptr DS:[edi+02h],02
+77C1F1D8	jz 77C1F208
+77C1F1DA	mov ecx, edi
+77C1F1DC	call 77BA3AE9
+77BA3AE9	cmp Byte ptr DS:[ecx+07h],04h
+77BA3AED	jz 77BA3AF7
+77BA3AEF	movzx eax,Word ptr DS:[ecx]
+77BA3AF2	dec eax
+77BA3AF3	lea eax,Dword ptr DS:[eax*8+ecx]
+77BA3AF6	ret
+77C1F1E1	mov Dword ptr SS:[ebp-28h],eax
+77C1F1E4	xor ecx, ecx
+77C1F1E6	test Dword ptr DS:[esi+40h],08000000
+77C1F1ED	jz 77C1F1FF
+77C1F1FF	mov Word ptr DS:[eax],cx 
+77C1F202	movzx eax,Word ptr DS:[eax+02]
+77C1F206	jmp 77C1F211
+77C1F211	mov Dword ptr SS:[ebp-2Ch],eax
+77C1F214	mov Word ptr SS:[ebp-20h],ax 
+77C1F218	cmp Dword ptr DS:[esi+4Ch],ebx
+77C1F21B	jz 77C1F22F
+77C1F21D	mov ecx, edi
+77C1F21F	mov al,byte ptr DS:[ecx+02h]
+77C1F222	xor al,byte ptr DS:[ecx+01h]
+77C1F225	xor al,byte ptr DS:[ecx]
+77C1F227	mov byte ptr DS:[edi+03h],al
+77C1F22A	mov eax,Dword ptr DS:[esi+50h]
+77C1F22D	xor Dword ptr DS:[edi],eax
+77C1F22F	test Dword ptr DS:[esi+40h],20000000
+77C1F236	jz 77C1F241
+77C1F241	mov eax,Dword ptr SS:[ebp-24h]
+77C1F244	cmp eax,Dword ptr DS:[77C647C0]
+77C1F24A	mov eax, Dword ptr FS:[00000030] 
+77C1F250	jnz 77C1F2BE
+77C1F2BE	mov eax,Dword ptr DS:[eax+68h]
+77C1F2C1	mov Dword ptr SS:[ebp-44h],eax
+77C1F2C4	test eax, 00000800
+77C1F2C9	jz 77C1F3D5
+77C1F3D5	mov Dword ptr SS:[ebp-04h],ebx
+77C1F3D8	mov Dword ptr SS:[ebp-04h],FFFFFFFE
+77C1F3DF	call 77C1F3F9
+77C1F3F9	cmp Byte ptr SS:[ebp-19h],00h
+77C1F3FD	jz 77C1F40D
+77C1F3FF	mov eax,Dword ptr SS:[ebp-3Ch]
+77C1F402	push Dword ptr DS:[eax+000000C8]
+77C1F408	call 77B7E740
+77B7E740	mov edi, edi
+77B7E742	push ebp
+77B7E743	mov ebp, esp
+77B7E745	sub esp, 10
+77B7E748	push ebx
+77B7E749	push esi
+77B7E74A	mov esi,Dword ptr SS:[ebp+08h]
+77B7E74D	push edi
+77B7E74E	add Dword ptr DS:[esi+08h],-01h
+77B7E752	jnz 77B7E771
+77B7E754	mov Dword ptr DS:[esi+0Ch],00000000
+77B7E75B	lea edi,Dword ptr DS:[esi+04h]
+77B7E75E	or ecx, -01
+77B7E761	mov eax, FFFFFFFE
+77B7E766	lock cmpxchg Dword ptr DS:[edi],ecx 
+77B7E76A	mov ebx, eax
+77B7E76C	cmp ebx, -02
+77B7E76F	jnz 77B7E77C
+77B7E771	pop edi
+77B7E772	pop esi
+77B7E773	xor eax, eax
+77B7E775	pop ebx
+77B7E776	mov esp, ebp
+77B7E778	pop ebp
+77B7E779	ret 0004
+77C1F40D	ret
+77C1F3E4	mov eax,Dword ptr SS:[ebp-24h]
+77C1F3E7	mov ecx,Dword ptr SS:[ebp-10h]
+77C1F3EA	mov Dword ptr FS:[00000000],ecx 
+77C1F3F1	pop ecx
+77C1F3F2	pop edi
+77C1F3F3	pop esi
+77C1F3F4	pop ebx
+77C1F3F5	leave
+77C1F3F6	ret 0004
+77B870D0	mov ecx,Dword ptr SS:[ebp-10h]
+77B870D3	mov Dword ptr FS:[00000000],ecx 
+77B870DA	pop ecx
+77B870DB	pop edi
+77B870DC	pop esi
+77B870DD	pop ebx
+77B870DE	mov esp, ebp
+77B870E0	pop ebp
+77B870E1	ret 0010
+77B86E2C	mov edi, eax
+77B86E2E	test edi, edi
+77B86E30	jz 77B86E7B
+77B86E32	mov ecx,Dword ptr SS:[ebp-18h]
+77B86E35	mov edx,Dword ptr SS:[ebp-3Ch]
+77B86E38	test edx, edx
+77B86E3A	jz 77B86EB8
+77B86EB8	mov esi,Dword ptr SS:[ebp-0Ch]
+77B86EBB	mov ecx,Dword ptr SS:[ebp-1Ch]
+77B86EBE	mov eax, Dword ptr FS:[00000030] 
+77B86EC4	mov eax,Dword ptr DS:[eax+50h]
+77B86EC7	test eax, eax
+77B86EC9	jz 77B86EE5
+77B86EE5	mov eax, 7FFE0380
+77B86EEA	cmp Byte ptr DS:[eax],00h
+77B86EED	jz 77B86F86
+77B86F86	mov esi,Dword ptr SS:[ebp-0Ch]
+77B86F89	mov eax, Dword ptr DS:[77C66834]
+77B86F8E	test al, 01
+77B86F90	jz 77B86FCD
+77B86FCD	mov eax, edi
+77B86FCF	pop edi
+77B86FD0	pop esi
+77B86FD1	mov esp, ebp
+77B86FD3	pop ebp
+77B86FD4	mov esp, ebx
+77B86FD6	pop ebx
+77B86FD7	ret 0008
+77B85DCE	pop esi
+77B85DCF	mov esp, ebp
+77B85DD1	pop ebp
+77B85DD2	ret 000C
+779B15E3	mov Dword ptr DS:[ebx],eax
+779B15E5	test eax, eax
+779B15E7	jz 779B162A
+779B15E9	mov eax, Dword ptr DS:[77A335A8]
+779B15EE	mov cx,Word ptr SS:[ebp+08h] 
+779B15F2	cmp cx,Word ptr DS:[eax] 
+779B15F5	jz 779B1600
+779B15F7	test cx, cx 
+779B15FA	jnz 779D99E3
+779B1600	push esi
+779B1601	push Dword ptr SS:[ebp+0Ch]
+779B1604	lea eax,Dword ptr SS:[ebp-04h]
+779B1607	push eax
+779B1608	lea eax,Dword ptr DS:[edi+edi]
+779B160B	push eax
+779B160C	push Dword ptr DS:[ebx]
+779B160E	call Dword ptr DS:[77A33728]
+77BA1E80	mov edi, edi
+77BA1E82	push ebp
+77BA1E83	mov ebp, esp
+77BA1E85	movzx eax,Byte ptr DS:[77C63921]
+77BA1E8C	sub esp, 0C
+77BA1E8F	test eax, eax
+77BA1E91	jnz 77BE1CD0
+77BA1E97	mov edx,Dword ptr SS:[ebp+0Ch]
+77BA1E9A	push ebx
+77BA1E9B	push esi
+77BA1E9C	shr edx, 1
+77BA1E9E	push edi
+77BA1E9F	cmp byte ptr DS:[77C66930],al
+77BA1EA5	jnz 77BE1CFF
+77BE1CFF	mov esi,Dword ptr SS:[ebp+08h]
+77BE1D02	mov ecx, esi
+77BE1D04	mov Dword ptr SS:[ebp-04h],ecx
+77BE1D07	test edx, edx
+77BE1D09	jz 77BE1D6F
+77BE1D0B	mov edi,Dword ptr SS:[ebp+18h]
+77BE1D0E	mov ebx,Dword ptr SS:[ebp+14h]
+77BE1D11	test edi, edi
+77BE1D13	jz 77BE1D6C
+77BE1D15	movzx ecx,Byte ptr DS:[ebx]
+77BE1D18	dec edx
+77BE1D19	add ecx, ecx
+77BE1D1B	dec edi
+77BE1D1C	mov Dword ptr SS:[ebp-08h],ecx
+77BE1D1F	movzx eax,Word ptr DS:[ecx+77C64B00]
+77BE1D26	mov ecx, eax
+77BE1D28	mov Dword ptr SS:[ebp-0Ch],ecx
+77BE1D2B	mov ecx,Dword ptr SS:[ebp-08h]
+77BE1D2E	test ax, ax 
+77BE1D31	jz 77BE1D4C
+77BE1D4C	mov eax, Dword ptr DS:[77C66920]
+77BE1D51	movzx ecx,Word ptr DS:[eax+ecx]
+77BE1D55	inc ebx
+77BE1D56	mov Word ptr DS:[esi],cx 
+77BE1D59	lea eax,Dword ptr DS:[esi+02h]
+77BE1D5C	mov esi, eax
+77BE1D5E	test edx, edx
+77BE1D60	jnz 77BE1D11
+77BE1D11	test edi, edi
+77BE1D13	jz 77BE1D6C
+77BE1D15	movzx ecx,Byte ptr DS:[ebx]
+77BE1D18	dec edx
+77BE1D19	add ecx, ecx
+77BE1D1B	dec edi
+77BE1D1C	mov Dword ptr SS:[ebp-08h],ecx
+77BE1D1F	movzx eax,Word ptr DS:[ecx+77C64B00]
+77BE1D26	mov ecx, eax
+77BE1D28	mov Dword ptr SS:[ebp-0Ch],ecx
+77BE1D2B	mov ecx,Dword ptr SS:[ebp-08h]
+77BE1D2E	test ax, ax 
+77BE1D31	jz 77BE1D4C
+77BE1D4C	mov eax, Dword ptr DS:[77C66920]
+77BE1D51	movzx ecx,Word ptr DS:[eax+ecx]
+77BE1D55	inc ebx
+77BE1D56	mov Word ptr DS:[esi],cx 
+77BE1D59	lea eax,Dword ptr DS:[esi+02h]
+77BE1D5C	mov esi, eax
+77BE1D5E	test edx, edx
+77BE1D60	jnz 77BE1D11
+77BE1D11	test edi, edi
+77BE1D13	jz 77BE1D6C
+77BE1D15	movzx ecx,Byte ptr DS:[ebx]
+77BE1D18	dec edx
+77BE1D19	add ecx, ecx
+77BE1D1B	dec edi
+77BE1D1C	mov Dword ptr SS:[ebp-08h],ecx
+77BE1D1F	movzx eax,Word ptr DS:[ecx+77C64B00]
+77BE1D26	mov ecx, eax
+77BE1D28	mov Dword ptr SS:[ebp-0Ch],ecx
+77BE1D2B	mov ecx,Dword ptr SS:[ebp-08h]
+77BE1D2E	test ax, ax 
+77BE1D31	jz 77BE1D4C
+77BE1D4C	mov eax, Dword ptr DS:[77C66920]
+77BE1D51	movzx ecx,Word ptr DS:[eax+ecx]
+77BE1D55	inc ebx
+77BE1D56	mov Word ptr DS:[esi],cx 
+77BE1D59	lea eax,Dword ptr DS:[esi+02h]
+77BE1D5C	mov esi, eax
+77BE1D5E	test edx, edx
+77BE1D60	jnz 77BE1D11
+77BE1D11	test edi, edi
+77BE1D13	jz 77BE1D6C
+77BE1D15	movzx ecx,Byte ptr DS:[ebx]
+77BE1D18	dec edx
+77BE1D19	add ecx, ecx
+77BE1D1B	dec edi
+77BE1D1C	mov Dword ptr SS:[ebp-08h],ecx
+77BE1D1F	movzx eax,Word ptr DS:[ecx+77C64B00]
+77BE1D26	mov ecx, eax
+77BE1D28	mov Dword ptr SS:[ebp-0Ch],ecx
+77BE1D2B	mov ecx,Dword ptr SS:[ebp-08h]
+77BE1D2E	test ax, ax 
+77BE1D31	jz 77BE1D4C
+77BE1D4C	mov eax, Dword ptr DS:[77C66920]
+77BE1D51	movzx ecx,Word ptr DS:[eax+ecx]
+77BE1D55	inc ebx
+77BE1D56	mov Word ptr DS:[esi],cx 
+77BE1D59	lea eax,Dword ptr DS:[esi+02h]
+77BE1D5C	mov esi, eax
+77BE1D5E	test edx, edx
+77BE1D60	jnz 77BE1D11
+77BE1D11	test edi, edi
+77BE1D13	jz 77BE1D6C
+77BE1D15	movzx ecx,Byte ptr DS:[ebx]
+77BE1D18	dec edx
+77BE1D19	add ecx, ecx
+77BE1D1B	dec edi
+77BE1D1C	mov Dword ptr SS:[ebp-08h],ecx
+77BE1D1F	movzx eax,Word ptr DS:[ecx+77C64B00]
+77BE1D26	mov ecx, eax
+77BE1D28	mov Dword ptr SS:[ebp-0Ch],ecx
+77BE1D2B	mov ecx,Dword ptr SS:[ebp-08h]
+77BE1D2E	test ax, ax 
+77BE1D31	jz 77BE1D4C
+77BE1D4C	mov eax, Dword ptr DS:[77C66920]
+77BE1D51	movzx ecx,Word ptr DS:[eax+ecx]
+77BE1D55	inc ebx
+77BE1D56	mov Word ptr DS:[esi],cx 
+77BE1D59	lea eax,Dword ptr DS:[esi+02h]
+77BE1D5C	mov esi, eax
+77BE1D5E	test edx, edx
+77BE1D60	jnz 77BE1D11
+77BE1D11	test edi, edi
+77BE1D13	jz 77BE1D6C
+77BE1D15	movzx ecx,Byte ptr DS:[ebx]
+77BE1D18	dec edx
+77BE1D19	add ecx, ecx
+77BE1D1B	dec edi
+77BE1D1C	mov Dword ptr SS:[ebp-08h],ecx
+77BE1D1F	movzx eax,Word ptr DS:[ecx+77C64B00]
+77BE1D26	mov ecx, eax
+77BE1D28	mov Dword ptr SS:[ebp-0Ch],ecx
+77BE1D2B	mov ecx,Dword ptr SS:[ebp-08h]
+77BE1D2E	test ax, ax 
+77BE1D31	jz 77BE1D4C
+77BE1D4C	mov eax, Dword ptr DS:[77C66920]
+77BE1D51	movzx ecx,Word ptr DS:[eax+ecx]
+77BE1D55	inc ebx
+77BE1D56	mov Word ptr DS:[esi],cx 
+77BE1D59	lea eax,Dword ptr DS:[esi+02h]
+77BE1D5C	mov esi, eax
+77BE1D5E	test edx, edx
+77BE1D60	jnz 77BE1D11
+77BE1D62	jmp 77BE1D6C
+77BE1D6C	mov ecx,Dword ptr SS:[ebp-04h]
+77BE1D6F	mov eax,Dword ptr SS:[ebp+10h]
+77BE1D72	test eax, eax
+77BE1D74	jz 77BA1EDD
+77BE1D7A	sub esi, ecx
+77BE1D7C	mov Dword ptr DS:[eax],esi
+77BE1D7E	jmp 77BA1EDD
+77BA1EDD	pop edi
+77BA1EDE	pop esi
+77BA1EDF	pop ebx
+77BA1EE0	xor eax, eax
+77BA1EE2	leave
+77BA1EE3	ret 0014
+779B1614	test eax, eax
+779B1616	js 779D9A17
+779B161C	mov eax,Dword ptr SS:[ebp-04h]
+779B161F	shr eax, 1
+779B1621	pop edi
+779B1622	pop esi
+779B1623	pop ebx
+779B1624	leave
+779B1625	ret 0018
+77A0F034	test eax, eax
+77A0F036	jnz 77A0F048
+77A0F048	mov esi,Dword ptr SS:[ebp-08h]
+77A0F04B	cmp Dword ptr DS:[77A31C94],ebx
+77A0F051	jz 77A0F07B
+77A0F07B	push Dword ptr SS:[ebp+1Ch]
+77A0F07E	push Dword ptr SS:[ebp+18h]
+77A0F081	push Dword ptr SS:[ebp+14h]
+77A0F084	push esi
+77A0F085	push edi
+77A0F086	push Dword ptr SS:[ebp+08h]
+77A0F089	call 77A0F0C0
+77A0F0C0	mov edi, edi
+77A0F0C2	push ebp
+77A0F0C3	mov ebp, esp
+77A0F0C5	and esp, -08
+77A0F0C8	sub esp, 74
+77A0F0CB	mov eax, Dword ptr DS:[77A31538]
+77A0F0D0	xor eax, esp
+77A0F0D2	mov Dword ptr SS:[esp+70h],eax
+77A0F0D6	push ebx
+77A0F0D7	mov ebx,Dword ptr SS:[ebp+10h]
+77A0F0DA	lea eax,Dword ptr SS:[esp+08h]
+77A0F0DE	push esi
+77A0F0DF	mov esi,Dword ptr SS:[ebp+08h]
+77A0F0E2	push edi
+77A0F0E3	mov edi,Dword ptr SS:[ebp+0Ch]
+77A0F0E6	push 68
+77A0F0E8	push 00
+77A0F0EA	push eax
+77A0F0EB	call 779D3F53
+779D3F53	jmp Dword ptr DS:[77A3359C]
+77BB8F40	mov edx,Dword ptr SS:[esp+0Ch]
+77BB8F44	mov ecx,Dword ptr SS:[esp+04h]
+77BB8F48	test edx, edx
+77BB8F4A	jz 77BB8F9B
+77BB8F4C	xor eax, eax
+77BB8F4E	mov al,byte ptr SS:[esp+08h]
+77BB8F52	push edi
+77BB8F53	mov edi, ecx
+77BB8F55	cmp edx, 04
+77BB8F58	jb 77BB8F8B
+77BB8F5A	neg ecx
+77BB8F5C	and ecx, 03
+77BB8F5F	jz 77BB8F6D
+77BB8F6D	mov ecx, eax
+77BB8F6F	shl eax, 08
+77BB8F72	add eax, ecx
+77BB8F74	mov ecx, eax
+77BB8F76	shl eax, 10
+77BB8F79	add eax, ecx
+77BB8F7B	mov ecx, edx
+77BB8F7D	and edx, 03
+77BB8F80	shr ecx, 02
+77BB8F83	jz 77BB8F8B
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F85	rep stos Dword ptr ES:[edi]
+77BB8F87	test edx, edx
+77BB8F89	jz 77BB8F95
+77BB8F95	mov eax,Dword ptr SS:[esp+08h]
+77BB8F99	pop edi
+77BB8F9A	ret
+77A0F0F0	mov eax,Dword ptr SS:[ebp+14h]
+77A0F0F3	add esp, 0C
+77A0F0F6	mov Dword ptr SS:[esp+24h],eax
+77A0F0FA	mov ax,Word ptr SS:[ebp+18h] 
+77A0F0FE	mov Dword ptr SS:[esp+14h],esi
+77A0F102	xor esi, esi
+77A0F104	mov Word ptr SS:[esp+40h],ax 
+77A0F109	mov eax,Dword ptr SS:[ebp+1Ch]
+77A0F10C	mov Dword ptr SS:[esp+10h],00000028
+77A0F114	mov Dword ptr SS:[esp+18h],esi
+77A0F118	mov Dword ptr SS:[esp+1Ch],edi
+77A0F11C	mov Dword ptr SS:[esp+20h],ebx
+77A0F120	mov Dword ptr SS:[esp+58h],eax
+77A0F124	cmp Dword ptr DS:[77A31C94],esi
+77A0F12A	jz 77A0F14E
+77A0F14E	cmp Dword ptr DS:[77A321C0],esi
+77A0F154	jnz 77A0F245
+77A0F15A	push 12
+77A0F15C	pop ebx
+77A0F15D	cmp Dword ptr DS:[77A31D64],esi
+77A0F163	jnz 77A0F1C5
+77A0F165	mov eax, Dword ptr FS:[00000018] 
+77A0F16B	mov ecx,Dword ptr DS:[eax+00000FDC]
+77A0F171	test ecx, ecx
+77A0F173	jns 77A0F177
+77A0F175	add eax, ecx
+77A0F177	add eax, 00000800
+77A0F17C	jnz 77A0F18A
+77A0F18A	mov eax, Dword ptr FS:[00000018] 
+77A0F190	mov ecx,Dword ptr DS:[eax+00000FDC]
+77A0F196	test ecx, ecx
+77A0F198	jns 77A0F19C
+77A0F19A	add eax, ecx
+77A0F19C	cmp Dword ptr DS:[eax+000008E8],esi
+77A0F1A2	jnz 77A0F1AB
+77A0F1A4	mov eax, Dword ptr DS:[77A315A0]
+77A0F1A9	jmp 77A0F1C7
+77A0F1C7	and al, 0F
+77A0F1C9	cmp al, 02
+77A0F1CB	jnz 77A0F23D
+77A0F23D	cmp Dword ptr DS:[77A31D64],esi
+77A0F243	jz 77A0F24E
+77A0F24E	lea ecx,Dword ptr SS:[esp+10h]
+77A0F252	call 77A0E47D
+77A0E47D	mov edi, edi
+77A0E47F	push ebp
+77A0E480	mov ebp, esp
+77A0E482	sub esp, 00000144
+77A0E488	mov eax, Dword ptr DS:[77A31538]
+77A0E48D	xor eax, ebp
+77A0E48F	mov Dword ptr SS:[ebp-04h],eax
+77A0E492	push ebx
+77A0E493	push esi
+77A0E494	push edi
+77A0E495	mov edi, ecx
+77A0E497	xor edx, edx
+77A0E499	mov ecx,Dword ptr FS:[00000018] 
+77A0E4A0	mov Dword ptr SS:[ebp+FFFFFEC0],edx
+77A0E4A6	mov ebx,Dword ptr DS:[edi+14h]
+77A0E4A9	mov eax,Dword ptr DS:[ecx+00000FDC]
+77A0E4AF	test eax, eax
+77A0E4B1	jns 77A0E4B5
+77A0E4B3	add ecx, eax
+77A0E4B5	mov eax,Dword ptr DS:[ecx+78h]
+77A0E4B8	or eax,Dword ptr DS:[ecx+7Ch]
+77A0E4BB	jnz 77A0E4D2
+77A0E4D2	cmp Dword ptr DS:[edi+48h],edx
+77A0E4D5	jnz 77A0E4DB
+77A0E4DB	mov esi, ebx
+77A0E4DD	and esi, 0F
+77A0E4E0	cmp esi, 06
+77A0E4E3	jbe 77A0E4F2
+77A0E4F2	movzx ecx,Byte ptr DS:[esi+77995304]
+77A0E4F9	mov eax, ebx
+77A0E4FB	shr eax, 0E
+77A0E4FE	and eax, 01
+77A0E501	add ecx, eax
+77A0E503	mov eax, ebx
+77A0E505	shr eax, 08
+77A0E508	and eax, 0F
+77A0E50B	mov Dword ptr SS:[ebp+FFFFFED0],ecx
+77A0E511	cmp eax, ecx
+77A0E513	sbb ecx, ecx
+77A0E515	and ecx, eax
+77A0E517	cmp Dword ptr DS:[77A31C94],00h
+77A0E51E	mov Dword ptr SS:[ebp+FFFFFEC4],ecx
+77A0E524	jz 77A0E535
+77A0E535	cmp Dword ptr DS:[77A31C90],00h
+77A0E53C	jz 77A0E560
+77A0E560	mov eax,Dword ptr DS:[edi+10h]
+77A0E563	test eax, eax
+77A0E565	jnz 77A0E5EB
+77A0E5EB	test ebx,00040000
+77A0E5F1	jz 77A0E623
+77A0E623	mov ecx,Dword ptr DS:[edi+04h]
+77A0E626	test ebx,00220000
+77A0E62C	jz 77A0E652
+77A0E652	test ecx, ecx
+77A0E654	jz 77A0E66A
+77A0E66A	and Dword ptr SS:[ebp+FFFFFEC8],00h
+77A0E671	and ebx, 0F
+77A0E674	mov esi,Dword ptr SS:[ebp+FFFFFED0]
+77A0E67A	mov Dword ptr SS:[ebp+FFFFFECC],ebx
+77A0E680	movzx eax,Byte ptr DS:[ebx+779952FC]
+77A0E687	test esi, esi
+77A0E689	jz 77A0E74A
+77A0E68F	lea edx,Dword ptr DS:[eax*4+779952A0]
+77A0E696	mov Dword ptr SS:[ebp+FFFFFED4],edx
+77A0E69C	imul ebx,Dword ptr DS:[edx],28h
+77A0E69F	movzx eax,Word ptr DS:[edi+30]
+77A0E6A3	add ebx,Dword ptr DS:[77A31C30]
+77A0E6A9	test ax, ax 
+77A0E6AC	jnz 77A0E6B6
+77A0E6AE	lea eax,Dword ptr DS:[ebx+000003A4]
+77A0E6B4	jmp 77A0E703
+77A0E703	mov ecx,Dword ptr SS:[ebp+FFFFFEC8]
+77A0E709	mov Dword ptr SS:[ecx*4+ebp+FFFFFEE8h],eax
+77A0E710	mov eax,Dword ptr DS:[ebx+000003C4]
+77A0E716	mov Dword ptr SS:[ecx*4+ebp+FFFFFED8h],eax
+77A0E71D	cmp eax, 02
+77A0E720	jnz 77A0E72C
+77A0E72C	inc ecx
+77A0E72D	add edx, 04
+77A0E730	mov Dword ptr SS:[ebp+FFFFFEC8],ecx
+77A0E736	mov Dword ptr SS:[ebp+FFFFFED4],edx
+77A0E73C	cmp ecx, esi
+77A0E73E	jb 77A0E69C
+77A0E744	mov ebx,Dword ptr SS:[ebp+FFFFFECC]
+77A0E74A	push 00
+77A0E74C	push 01
+77A0E74E	call Dword ptr DS:[77A3397C]
+77132010	mov eax, 00051101
+77132015	mov edx, 77136310
+7713201A	call edx
+77136310	jmp Dword ptr DS:[771370CC]
+77B37000	jmp 0033:77B37009Far jmp
+77BB4F70	cmp Dword ptr DS:[77C669BC],00h
